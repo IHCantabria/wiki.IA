@@ -19,7 +19,7 @@ En cada sección encontraras una lista de desarrollos, proyectos, exploraciones 
 ### Template
 TITLE | AUTHOR | GROUP |  MORE INFO
 ------|--------|-------|-----------
-pyTESEO | Germán Aragón | Oceanos (A3) |  [pyTESEO description sheet](sheets/pyteseo.md)
+pyTESEO | Germán Aragón | Oceanos (A3) |  [description sheet](sheets/pyteseo.md)
 
 
 ### Machine Learning

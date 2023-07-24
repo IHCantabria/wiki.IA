@@ -37,7 +37,7 @@ jobs:
         run: pip install "."
 
       - name: Build doc html
-        run: sphinx-build --keep-going ./ ./_build/html
+        run: sphinx-build --keep-going ./wikiIA ./wikiIA/_build/html
 
       - name: Setup Pages
         uses: actions/configure-pages@v2
