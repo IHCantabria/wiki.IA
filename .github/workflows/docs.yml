@@ -33,15 +33,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - uses: conda-incubator/setup-miniconda@v2
-        with:
-          auto-update-conda: true
-      
-      - name: create env
-        run: conda env create -f environment.yml
-
-      - name: activate env
-        run: conda activate wiki.IA
+      - name: Install project
+        run: pip install "."
 
       - name: Build doc html
         run: sphinx-build --keep-going ./ ./_build/html
