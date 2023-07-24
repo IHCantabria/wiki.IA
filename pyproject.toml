@@ -10,3 +10,10 @@ dynamic = ["version", "description"]
 
 [project.urls]
 Home = "https://github.com/IHCantabria/wiki.IA"
+
+dependencies = [
+    "sphinx",
+    "myst-nb",
+    "sphinx-autoapi",
+    "sphinx_rtd_theme"
+]
