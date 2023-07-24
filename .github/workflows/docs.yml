@@ -37,7 +37,7 @@ jobs:
         run: pip install "."
 
       - name: Build doc html
-        run: sphinx-build --keep-going ./wikiIA ./wikiIA/_build/html
+        run: sphinx-build --keep-going wikiIA wikiIA/_build/html
 
       - name: Setup Pages
         uses: actions/configure-pages@v2
@@ -46,7 +46,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: './_build/html'
+          path: 'wikiIA/_build/html'
 
       - name: Deploy to GitHub Pages
         id: deployment
