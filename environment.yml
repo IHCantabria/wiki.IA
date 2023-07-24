@@ -1,0 +1,9 @@
+name: wiki.IA
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - sphinx
+  - myst-nb
+  - sphinx_rtd_theme
