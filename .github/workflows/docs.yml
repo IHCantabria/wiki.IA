@@ -38,7 +38,7 @@ jobs:
           auto-update-conda: true
       
       - name: create env
-        run: conda env create environment.yml
+        run: conda env create -f environment.yml
 
       - name: activate env
         run: conda activate wiki.IA
