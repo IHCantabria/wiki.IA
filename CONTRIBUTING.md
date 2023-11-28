@@ -1,6 +1,7 @@
 # Contributing steps
 
 *All these steps can be done easily using the github web* 
+
 ![do not panic!](https://cdn.renet.net.au/10047993/images/442150/3W72119s5BjWMGm4Xa2MvD5AT2bJsSA8F9WeC71v1s1fKfGkK9mMKuc3LcvF4KigbWg9UsrpEPYxPSBiqc92LX4mydWZD4uC9EKuxtZzQyBvkDh33csdev.jpg)
 1. Do not panic 
 2. Fork this repository to your own github account
