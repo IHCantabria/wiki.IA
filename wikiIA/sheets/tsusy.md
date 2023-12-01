@@ -8,7 +8,6 @@
   </a>
 </div>
 
----
 
 ## Overview
 The motivation of this work is mainly focused as a proposal to improve the current IH-Tsusy decision system to classify earthquake events into potential tsunamis.
@@ -17,37 +16,48 @@ The current system is based on the fulfillment of a criterion based on the evalu
 
 <div align="center">
   <a>
-    <img src="../_static/images/tsusy-current-results.png" width="400" height="400">
+    <img src="../_static/images/tsusy-current-results.png" width="50%">
   </a>
 </div>
+<br/>
 
 The full presentation of this work, carried out Nov 28th 2023 is available [here](https://www.canva.com/design/DAFbFyWc57c/ISjeqcPnOdLalJp-zXw_TQ/edit?utm_content=DAFbFyWc57c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 <div align="center">
-<iframe src="https://www.canva.com/design/DAFbFyWc57c/ISjeqcPnOdLalJp-zXw_TQ/edit?utm_content=DAFbFyWc57c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" width="600" height="400"></iframe>
+  <a href="https://www.canva.com/design/DAFbFyWc57c/ISjeqcPnOdLalJp-zXw_TQ/edit?utm_content=DAFbFyWc57c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+    <img src="../_static/images/tsusy-thumbnail-presentation.png" alt="Website thumbnail" width="50%">
+  </a>
 </div>
 
----
 
 ## Modelling
 
 The modelling methodology used is the following.
 
-![tsusy-modelling](../_static/images/tsusy-modelling.png)
-
----
+<div align="center">
+  <a>
+    <img src="../_static/images/tsusy-modelling.png" alt="tsusy-modelling" width="75%">
+  </a>
+</div>
 
 ## Results
 
 The following results are obtained by fine-tuning a Random Forest Classifier.
-![tsusy-results-conf-mat](../_static/images/tsusy-train-test-conf-mat.png)
+
+<div align="center">
+  <a>
+    <img src="../_static/images/tsusy-train-test-conf-mat.png" alt="tsusy-results-conf-mat" width="75%">
+  </a>
+</div>
 
 ### Improvement of the current system
+The improvements achieved comparing with current decision system are the following.
 
-![tsusy-comparison-conf-mat](../_static/images/tsusy-comparison-conf-mat)
+![tsusy-comparison-conf-mat](../_static/images/tsusy-comparison-conf-mat.png)
 
 ---
+## More info
 
-Official website of the operational system [tsusy-documentation](https://ihcantabria.com/specialized-software/ih-tsusy/)
+[Official website of the operational system](https://ihcantabria.com/specialized-software/ih-tsusy/)
 
-Web application [tsusy-webapp](https://tsunami.ihcantabria.com/#/earthquakes)
+[Web application](https://tsunami.ihcantabria.com/#/earthquakes)
