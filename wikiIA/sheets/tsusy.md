@@ -24,8 +24,8 @@ The current system is based on the fulfillment of a criterion based on the evalu
 The full presentation of this work, carried out Nov 28th 2023 is available [here](https://www.canva.com/design/DAFbFyWc57c/ISjeqcPnOdLalJp-zXw_TQ/edit?utm_content=DAFbFyWc57c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 <div align="center">
-  <a href="https://www.canva.com/design/DAFbFyWc57c/ISjeqcPnOdLalJp-zXw_TQ/edit?utm_content=DAFbFyWc57c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
-    <img src="../_static/images/tsusy-thumbnail-presentation.png" alt="Website thumbnail" width="50%">
+  <a>
+    <img src="../_static/images/tsusy-thumbnail-presentation.PNG" alt="Website thumbnail" width="30%">
   </a>
 </div>
 
