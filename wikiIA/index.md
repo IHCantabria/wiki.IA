@@ -25,7 +25,7 @@ pyTESEO | Germán Aragón | Oceanos (A3) |  [description sheet](sheets/pyteseo.m
 ### Machine Learning
 TITLE | AUTHOR | GROUP |  MORE INFO
 ------|--------|-------|-----------
-Tsusy | Albert Gallego | Costas (A3) |  [description sheet](sheets/pyteseo.md)
+Tsusy | Albert Gallego | Costas (A3) |  [description sheet](sheets/tsusy.md)
 
 
 ### Deep Learning
