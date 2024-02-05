@@ -2,7 +2,7 @@
 Last update 05/02/2024
 ```
 # WIKI IA
-<img align="right" src="https://ihcantabria.com/wp-content/uploads/2018/06/Logo-IHCantabria-Universidad-Cantabria_black-copia.jpg" width="280
+<img align="right" src="https://ihcantabria.com/wp-content/uploads/2018/06/Logo-IHCantabria-Universidad-Cantabria_black-copia.jpg" width="200
 "/>
 This wiki aims to facilitate contact between members of IHCantabria who have experience or need to apply artificial intelligence techniques.  
 
