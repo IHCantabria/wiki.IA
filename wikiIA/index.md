@@ -1,16 +1,16 @@
-
-# WIKI IA IHCANTABRIA
 ```{important}
-This is a draft version
-
+Last update 05/02/2024
 ```
+# WIKI IA IHCANTABRIA
 
 ## MOTIVATION
-Esta wiki pretende facilitar el contacto entre miembros del IHCantabria con experiencia o necesidad de aplicar técnicas de Inteligencia artificial.  La mejor transferencia de conocimiento que podemos tener es la colaboración entre compañer@s y que ell@s nos muestren presencialmente sus trabajos, ideas, desarrollos en primera persona. Por esto, os proponemos que busquéis un rato para juntaros y hablar. 
 
-Para facilitar la búsqueda de contenidos y personas de contacto esta wiki se estructura en base a grandes temáticas de IA
- 
-En cada sección encontraras una lista de desarrollos, proyectos, exploraciones realizadas por algún miembro de IHCantabria, con (opcionalmente) un link a una pequeña ficha descriptiva del mismo (1 cara con 1 imagen max.) 
+This wiki aims to facilitate contact between members of IHCantabria who have experience or need to apply artificial intelligence techniques.  
+
+The best knowledge transfer we can have is the collaboration between colleagues. For this reason, we suggest that you find a time to meet and talk face-to-face. So, this wiki is here to find easily the contents and contacts you need.
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExczg0aHZuaHlhdzl1aHMzdmJ2cWJ3bXRvb3UybWI2eHRkdW9tNnBuaSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/TvwzctVdT8pItRFIjV/giphy.gif)
+
+In each section you will find a list of developments, projects, explorations made by a member of IHCantabria, with a link to a small descriptive file of the same with TLDR phylosophy (Too Long = Don't Read, we want you to talk face-to-face)
 
 ---
 
