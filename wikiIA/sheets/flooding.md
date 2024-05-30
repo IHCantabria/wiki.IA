@@ -1,6 +1,7 @@
 # Machine learning methods for coastal flooding
 ## Coastal flooding modelling strategies
 The choice of the modelling strategy depends on the spatio-temporal scale to be solved. 
+
 ```{image} ../_static/images/flood_ms.png
 :width: 500px
 :align: center
