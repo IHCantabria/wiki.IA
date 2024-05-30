@@ -1,12 +1,31 @@
-# pyTESEO
+# Machine learning methods for coastal flooding
+## Coastal flooding modelling strategies
+The choice of the modelling strategy depends on the spatio-temporal scale to be solved. 
 
-**pyTESEO** is a python package developed by [IHCantabria](https://ihcantabria.com/en/) to simplify and facilitate the setup and processing of [TESEO](https://ihcantabria.com/en/specialized-software/teseo/) simulations *(TESEO is a lagrangian numerical model also developed by IHCantabria.)* The soruce code of this package is located at [https://github.com/IHCantabria/pyteseo](https://github.com/IHCantabria/pyteseo).
+
+## Limitations of numerical flooding prediction
+
+## Problem statement
+
+## Methodology
+
+## 1 Numerical model setup
+
+## 2 Event selection
+
+## 3 Numerical simulation
+
+## 4 Training the statistical model
+
+## 5 Model evaluation
+
+**Data assimilation** is a python package developed by [IHCantabria](https://ihcantabria.com/en/) to simplify and facilitate the setup and processing of [TESEO](https://ihcantabria.com/en/specialized-software/teseo/) simulations *(TESEO is a lagrangian numerical model also developed by IHCantabria.)* The soruce code of this package is located at [https://github.com/IHCantabria/pyteseo](https://github.com/IHCantabria/pyteseo).
 
 ```{image} ../_static/images/pyTESEO_logo.png
 :width: 500px
 :align: center
 ```
-
+**Machine learning**
 ---
 
 ## Overview
