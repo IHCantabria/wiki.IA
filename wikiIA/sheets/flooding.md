@@ -117,13 +117,7 @@ A balanced solution in terms of accuracy is obtained when choosing the EOFs that
 <br/>
 
 ## 5 Model evaluation
-The surrogate GP model is evaluated against the true numerical solution and the results highlight a slight underprediction of the total flooded area.  In order to improve the results, we are currently working on:
-*Improving the training database limiting the ocean part (as the focus is overland flooding)
-*Improving the GP metamodel
-*Testing deep learning nonlinear projection techniques
-*Testing multiouput deep learning algorithms
-*Do you have any idea? Feel free to reach and discuss!
-
+The surrogate GP model is evaluated against the true numerical solution and results highlight a slight underprediction of the total flooded area. 
 <div align="center">
   <figure>
     <img src="../_static/images/testmodelo.png" width="50%">
@@ -131,3 +125,11 @@ The surrogate GP model is evaluated against the true numerical solution and the 
   </figure>
 </div>
 <br/>
+
+## 6 Way forward
+In order to improve the results we are exploring the following:
+* Crop the training dataset to the inland area (main interest is overland flooding)
+* Improve the GP surrogate model
+* Test deep learning nonlinear projection techniques
+* Test deep learning multioutput techniques
+* Feel free to chat if you are curious or want to help!
