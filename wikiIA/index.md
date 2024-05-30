@@ -21,7 +21,7 @@ In each section you will find a list of developments, projects, explorations mad
 TITLE | AUTHOR | GROUP |  MORE INFO
 ------|--------|-------|-----------
 Tsusy | Albert Gallego | Costas (A3) |  [description sheet](sheets/tsusy.md)
-
+Machine learning for coastal flooding | Moisés Álvarez | ADAPTA (A2) | [description sheet](sheets/flooding.md)
 
 ### Deep Learning
 TITLE | AUTHOR | GROUP |  MORE INFO
