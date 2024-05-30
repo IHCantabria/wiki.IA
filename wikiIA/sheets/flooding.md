@@ -1,13 +1,26 @@
 # Machine learning methods for coastal flooding
 ## Coastal flooding modelling strategies
-The choice of the modelling strategy depends on the spatio-temporal scale to be solved. 
+The choice of the modelling strategy depends on the spatio-temporal scale to be solved. For spatial scales of few hundreds of meters, the direct option is to solve the surfzone hydrodynamics considering waves and water levels and subsequent overland flow using direct numerical simulation. However, for larger spatial scales, the wave and water level transformation problem is uncoupled from the overland flooding simulation to speed up the computations.
 
-```{image} ../_static/images/flood_ms.png
-:width: 500px
-:align: center
-```
+<div align="center">
+  <figure>
+    <img src="../_static/images/flood_ms.png" width="100%">
+    <figcaption style="text-align: center;">Figure 1: Coastal flooding modelling strategies.</figcaption>
+  </figure>
+</div>
+<br/>
+
+For regional-scale applications, it is usual to solve the surfzone hydrodynamics using specific numerical tools to derive the coastal forcings for a reduced-complexity overland flood model as shown in Figure.
+<div align="center">
+  <figure>
+    <img src="../_static/images/uncoupled_methodology.png" width="100%">
+    <figcaption style="text-align: center;">Figure 2: Flow diagram for a regional-scale flood modeling applications.</figcaption>
+  </figure>
+</div>
+<br/>
 
 ## Limitations of numerical flooding prediction
+
 
 ## Problem statement
 
