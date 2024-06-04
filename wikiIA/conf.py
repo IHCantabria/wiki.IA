@@ -26,7 +26,8 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.napoleon",
     "sphinx_rtd_theme",
-    "myst_parser"
+    "myst_parser",
+    "dollarmath"
 ]
 
 templates_path = ['_templates']
