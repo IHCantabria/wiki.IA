@@ -29,9 +29,7 @@ However, in spite of the computational advantages of reduced-complexity process 
 ## Problem statement
 In order to overcome these limitations, machine learning is a great tool. However, the predictability problem implies that a spatial output (millions of points) needs to be predicted based on a reduced set of parameters describing the coastal forcings of the storm (wave height, period, direction and still water level).
 
-$$
-Y = F(X) \text{, where } Y \text{ is the spatial map and } X \text{ represents Hs, Tp, Dir, SWL.}
-$$
+$Y = F(X) \text{, where } Y \text{ is the spatial map and } X \text{ represents Hs, Tp, Dir, SWL.}$
 
 <div align="center">
   <figure>
@@ -82,9 +80,7 @@ The numerical simulation of the 100 cases yields a training dataset consisting o
 ### 4. Training the statistical model
 The statistical model consists of projecting the training predictand dataset (N=45000xM=100) into a reduced subset using principal component analysis (PCA). 
 
-$$
-Y_{N,M}=U_{N,N} \Delta_{N,M} V_{M,M}
-$$
+$Y_{N,M}=U_{N,N} \Delta_{N,M} V_{M,M}$
 
 <div align="center">
   <figure>
@@ -96,15 +92,11 @@ $$
 
 Then, a given flood map (Y) can be solved as a linear summation of fixed EOFs (U) multiplied by storm-dependent latent variables (PCs) 
 
-$$
-Y_{j}=\sum_{i=1}^N \alpha_{ji}U_j
-$$
+$Y_{j}=\sum_{i=1}^N \alpha_{ji}U_j$
 
 Then, the spatial characteristics of the problem is represented by invariang EOFs and the inference problem is restricted to finding the storm-dependent latent variables that weights every EOF as a function of the storm characteristics which much more doable than the initial problem. The latent variables are inferred using Gaussian processes:
 
-$$
-\alpha_{ji}=GP(\underbrace{X}_{Hs, Tp, Dir, SWL})
-$$
+$\alpha_{ji}=GP(\underbrace{X}_{Hs, Tp, Dir, SWL})$
 
 A balanced solution in terms of accuracy is obtained when choosing the EOFs that represent 90% of the total variance:
 
