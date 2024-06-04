@@ -48,7 +48,7 @@ The methodology consists of creating a surrogate statistical model based on a se
 3. Numerical modeling
 4. Statistical model training
 5. Statistical model evaluation
-## 1 Numerical model setup
+### 1. Numerical model setup
 A 2DH XBeach simulation in a 10x10m grid is setup considering both topobathymetry of the San Lorenzo beach in Gijón consisting of 45k numerical cells.
 <div align="center">
   <figure>
@@ -58,7 +58,7 @@ A 2DH XBeach simulation in a 10x10m grid is setup considering both topobathymetr
 </div>
 <br/>
 
-## 2 Event selection
+### 2. Event selection
 20 historical extreme events are selected considering a peaks over treshold (POT) method. 100 events are evaluated by combining the selected historical cases with 5 SLR scenarios.
 <div align="center">
   <figure>
@@ -68,7 +68,7 @@ A 2DH XBeach simulation in a 10x10m grid is setup considering both topobathymetr
 </div>
 <br/>
 
-## 3 Numerical simulation
+### 3. Numerical simulation
 The numerical simulation of the 100 cases yields a training dataset consisting of 100 realizations of the 45k grid (representing the Y predictand variable) against the 100 wave and water level parameters representing the storms (X predictor variable). 
 <div align="center">
   <figure>
@@ -79,7 +79,7 @@ The numerical simulation of the 100 cases yields a training dataset consisting o
 <br/>
 
 
-## 4 Training the statistical model
+### 4. Training the statistical model
 The statistical model consists of projecting the training predictand dataset (N=45000xM=100) into a reduced subset using principal component analysis (PCA). 
 
 $$
@@ -116,7 +116,7 @@ A balanced solution in terms of accuracy is obtained when choosing the EOFs that
 </div>
 <br/>
 
-## 5 Model evaluation
+### 5. Model evaluation
 The surrogate GP model is evaluated against the true numerical solution and results highlight a slight underprediction of the total flooded area. 
 <div align="center">
   <figure>
@@ -126,7 +126,7 @@ The surrogate GP model is evaluated against the true numerical solution and resu
 </div>
 <br/>
 
-## 6 Way forward
+### 6. Way forward
 In order to improve the results we are exploring the following:
 * Crop the training dataset to the inland area (main interest is overland flooding)
 * Improve the GP surrogate model
