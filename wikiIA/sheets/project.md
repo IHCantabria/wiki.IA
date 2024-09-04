@@ -10,7 +10,7 @@ Despite significant advancements in technology, techniques and knowledge, people
 ### Description
 A new cutting-edge app is developed to minimize, predict and enhance useful information for beach users and related services and managers. Special focus on the generation of a elctronic flag to inform about drowning risk in patrol and unpatrol beaches, plus a warning section to notice user about other risks or important events that could take place in the beaches. 
 
-The main highlight assets of the app are metinoned bellow: 
+The main highlights of this app are metinoned bellow: 
 1. A cross cutting analysis between metocean conditions, beach characterizations, and flag events catalogue. 
 2. The use of Artificial Inteligence, specifically Deep Neural Network models, to identify and predict dynamic risk of drowning synchronized to dynamic metocean conditions.
 3. Obtain electronic bathing flags as an indicator of this risk.
