@@ -1,8 +1,7 @@
 
 ## SOSeas - Assessment tool for predicting the dynamic risk of drowning on beaches
 
-🏖️ 🛟 🚩 
-`#electronic-flag` `#drowning` `#metocean` `#beach-safety` `#neuronal-network` `#deep-learning` 
+🏖️ 🛟 🚩 `#electronic-flag` `#drowning` `#metocean` `#beach-safety` `#neuronal-network` `#deep-learning` 
 
 ---
 ### Context
@@ -22,16 +21,15 @@ The main highlight assets of the app are metinoned bellow:
 * 🌊 🗺️ ⚠️ Providing information in a predictive manner would therefore help to minimize this risk factor by enabling a better management of these spaces.
 
 </br>
-<figure>
+<figure align="center">
     <img src="../_static/images/SOSeas_app_forecast.jpg" alt="Screenshots of SOSeas mobile application" />
-    <figcaption>Figure 1 - Screenshots of SOSeas "Forecast" panel</figcaption>
+    <figcaption><i>Figure 1 - Screenshots of SOSeas "Forecast" panel</i></figcaption>
 </figure>
 </br>
-<figure>
+<figure align="center">
     <img src="../_static/images/SOSeas_app_events_map_warnings.png" alt="Screenshots of SOSeas mobile application" />
-    <figcaption>Figure 2 - Screenshots of SOSeas "Events", "Map" and "Warnings" panels</figcaption>
+    <figcaption><i>Figure 2 - Screenshots of SOSeas "Events", "Map" and "Warnings" panels</i></figcaption>
 </figure>
-</br>
 
 ### Other Remarks
 * Object of a scientific publication, doi: [10.5194/egusphere-egu2020-18033](https://doi.org/10.5194/egusphere-egu2020-18033)
