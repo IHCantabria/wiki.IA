@@ -37,11 +37,11 @@ The main highlights of this app are metinoned bellow:
 * Object of a scientific publication, doi: [10.5194/egusphere-egu2020-18033](https://doi.org/10.5194/egusphere-egu2020-18033)
 * Other implementation done by IHCantabria in Australia ([Reference]())
 * This project was founded by CMEMS DEMONSTRATION COASTAL-GLOBAL OCEAN (contract: 110-DEM5-L10) 
-
-<p align="center">
+<p align="right">
 <img src="../_static/images/Global-Ocean-SOSeas-110-DEM5-L10.webp" width=150/>
 </p>
 
+</br>
 <p align="center">
 <img align="center" src="../_static/images/UC+FIHAC+IHCantabrianegro.png" width="500"/>
 </p>
