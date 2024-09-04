@@ -39,9 +39,9 @@ The main highlight assets of the app are metinoned bellow:
 * This project was founded by CMEMS DEMONSTRATION COASTAL-GLOBAL OCEAN (contract: 110-DEM5-L10) 
 
 <p align="center">
-<img src="../_static/images/Global-Ocean-SOSeas-110-DEM5-L10.webp" width=200/>
+<img src="../_static/images/Global-Ocean-SOSeas-110-DEM5-L10.webp" width=180/>
 </p>
 
 <p align="center">
-<img align="center" src="../_static/images/UC+FIHAC+IHCantabrianegro.png" width="400"/>
+<img align="center" src="../_static/images/UC+FIHAC+IHCantabrianegro.png" width="500"/>
 </p>
