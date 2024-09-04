@@ -9,7 +9,9 @@
 Despite significant advancements in technology, techniques and knowledge, people still drown on the coast in unacceptable numbers; the maximum drowning index in Latin America is located in Brazil where a person is dead by drowning every 91 minutes. Against this backdrop, the following question arises: could we develop a worldwide operational system to inform end users about the risks at any patrolled or unpatrolled beach?
 
 ### Description
-A new cutting-edge app is developed to minimize, pedict and enhance the information of beach users and related services and managers. The app highlights are metinoned bellow: 
+A new cutting-edge app is developed to minimize, predict and enhance useful information for beach users and related services and managers. Special focus on the generation of a elctronic flag to inform about drowning risk in patrol and unpatrol beaches, plus a warning section to notice user about other risks or important events that could take place in the beaches. 
+
+The main highlight assets of the app are metinoned bellow: 
 1. A cross cutting analysis between metocean conditions, beach characterizations, and flag events catalogue. 
 2. The use of Artificial Inteligence, specifically Deep Neural Network models, to identify and predict dynamic risk of drowning synchronized to dynamic metocean conditions.
 3. Obtain electronic bathing flags as an indicator of this risk.
