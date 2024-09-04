@@ -37,7 +37,7 @@ The main highlights of this app are metinoned bellow:
 * This project was founded by CMEMS DEMONSTRATION COASTAL-GLOBAL OCEAN (contract: 110-DEM5-L10) 
 
 <p align="center">
-<img src="../_static/images/Global-Ocean-SOSeas-110-DEM5-L10.webp" width=180/>
+<img src="../_static/images/Global-Ocean-SOSeas-110-DEM5-L10.webp" width=150/>
 </p>
 
 <p align="center">
