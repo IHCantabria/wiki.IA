@@ -1,10 +1,12 @@
+
+## SOSeas - Assessment tool for predicting the dynamic risk of drowning on beaches
+---
+🏖️ 🛟 🚩 `#electronic-flag` `#drowning` `#metocean` `#beach-safety` `#neuronal-network` `#deep-learning` 
+
 </br>
 <p align="center">
 <img align="center" src="../_static/images/UC+FIHAC+IHCantabrianegro.png" width="400"/>
 </p>
-
-## SOSeas - Assessment tool for predicting the dynamic risk of drowning on beaches
-🏖️ 🛟 🚩 `#electronic-flag` `#drowning` `#metocean` `#beach-safety` `#neuronal-network` `#deep-learning` 
 
 ### Context
 Despite significant advancements in technology, techniques and knowledge, people still drown on the coast in unacceptable numbers; the maximum drowning index in Latin America is located in Brazil where a person is dead by drowning every 91 minutes. Against this backdrop, the following question arises: could we develop a worldwide operational system to inform end users about the risks at any patrolled or unpatrolled beach?
@@ -40,6 +42,6 @@ A new cutting-edge app is developed to minimize, pedict and enhance the informat
 </br>
 
 <p align="center">
-<img src="../_static/images/Global-Ocean-SOSeas-110-DEM5-L10.webp" width=150/>
+<img src="../_static/images/Global-Ocean-SOSeas-110-DEM5-L10.webp" width=200/>
 </p>
 
