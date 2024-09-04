@@ -35,8 +35,6 @@ A new cutting-edge app is developed to minimize, pedict and enhance the informat
 * Other implementation done by IHCantabria in Australia ([Reference]())
 * This project was founded by CMEMS DEMONSTRATION COASTAL-GLOBAL OCEAN (contract: 110-DEM5-L10) 
 
-</br>
-
 <p align="center">
 <img src="../_static/images/Global-Ocean-SOSeas-110-DEM5-L10.webp" width=200/>
 </p>
