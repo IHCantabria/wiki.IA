@@ -7,7 +7,6 @@
 ### Context
 Despite significant advancements in technology, techniques and knowledge, people still drown on the coast in unacceptable numbers; the maximum drowning index in Latin America is located in Brazil where a person is dead by drowning every 91 minutes. Against this backdrop, the following question arises: could we develop a worldwide operational system to inform end users about the risks at any patrolled or unpatrolled beach?
 
-</br>
 <figure align="center">
     <img src="../_static/images/SOSeas_app_forecast.jpg" alt="Screenshots of SOSeas mobile application" />
     <figcaption><i>Figure 1 - Screenshots of SOSeas "Forecast" panel</i></figcaption>
@@ -22,13 +21,12 @@ The main highlights of this app are metinoned bellow:
 3. Obtain electronic bathing flags as an indicator of this risk.
 4. User-friendly display of the information: forecastings of metocean conditions (winds, waves, currents and tides) and electronic flag, beach charateristics (service locations mainly) and warnings related to metocean conditions or other factors (algae blooms, jellyfish...)
 
-</br>
 <figure align="center">
     <img src="../_static/images/SOSeas_app_events_map_warnings.png" alt="Screenshots of SOSeas mobile application" />
     <figcaption><i>Figure 2 - Screenshots of SOSeas "Events", "Map" and "Warnings" panels</i></figcaption>
 </figure>
 
-### End-Users
+### Insights
 * 🏖️ 🛟 💼 Beach users, lifeguards and  managers can have detailed and near real-time information of all risks and their variability along the day.
 * 🌊 🗺️ ⚠️ Providing information in a predictive manner would therefore help to minimize this risk factor by enabling a better management of these spaces.
 
