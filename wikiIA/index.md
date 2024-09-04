@@ -15,7 +15,7 @@ In each section you will find a list of developments, projects, explorations mad
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGR3emhvNzk0bngxOGJyZG1vM3ZoaGZjbXVkb2QzYTBkbW04eDBqZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TvwzctVdT8pItRFIjV/giphy-downsized-large.gif" width="360">
 </p>
 
-## CONTENTS
+## TALKS
 
 ### Machine Learning
 TITLE | AUTHOR | GROUP |  MORE INFO
@@ -35,3 +35,8 @@ pyTESEO | Germán Aragón | Oceanos (A3) |  [description sheet](sheets/pyteseo.m
 
 
 
+## PROJECTS
+
+YEAR | TITLE  | GROUP        |  MORE INFO
+-----|--------|--------------|---------------------------------------
+2021 | SOSeas | OCEANOS (A3) | [description sheet](sheets/project.md)
