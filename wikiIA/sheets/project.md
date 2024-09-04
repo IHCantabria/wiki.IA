@@ -40,6 +40,6 @@ A new cutting-edge app is developed to minimize, pedict and enhance the informat
 </br>
 
 <p align="center">
-<img src="../_static/images/Global-Ocean-SOSeas-110-DEM5-L10.webp" height=150 align=centre>
+<img src="../_static/images/Global-Ocean-SOSeas-110-DEM5-L10.webp" width=150/>
 </p>
 
