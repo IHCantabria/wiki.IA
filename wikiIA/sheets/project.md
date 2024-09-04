@@ -39,7 +39,6 @@ The main highlights of this app are metinoned bellow:
 <img src="../_static/images/Global-Ocean-SOSeas-110-DEM5-L10.webp" width=150/>
 </p>
 
-</br>
 <p align="center">
 <img align="center" src="../_static/images/UC+FIHAC+IHCantabrianegro.png" width="500"/>
 </p>
