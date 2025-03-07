@@ -40,5 +40,5 @@ pyTESEO | Germán Aragón | Oceanos (A3) |  [description sheet](sheets/pyteseo.m
 YEAR | TITLE  | GROUP        |  MORE INFO
 -----|--------|--------------|---------------------------------------
 2021 | SOSeas | OCEANOS (A3) | [description sheet](sheets/SOSeas.md)
-2025 | OEFS-Santander-AI | OCEANOS (A3) | [description sheet](sheets/OEFS-Santander-AI.md)
+2025 | OEFS-Santander-AI | OCEANOS (A3) | [description sheet](sheets/OEFS-santander-IA.md)
 
