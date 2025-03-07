@@ -1,96 +1,91 @@
-# Context
+# SIMPCCe - Simulador de Pronósticos de Cambio Climático en Embalses
+🌊 📊 #climate-change #reservoirs #hydrology #forecasting #machine-learning #data-science
 
-### SIMPCCe: Simulador de Pronósticos de Cambio Climático en Embalses
+## Contexto
 
-La librería **SIMPCCe** se desarrolla como complemento a la **Guía metodológica para la estimación de aportaciones mínimas a embalses en el contexto de cambio climático**. Su propósito es proporcionar una herramienta que facilite la aplicación de la metodología descrita en la guía, asegurando su correcta implementación y optimización en estudios hidrológicos.
+A medida que el cambio climático altera los patrones hidrológicos, se vuelve esencial contar con herramientas que permitan evaluar y prever el impacto en la disponibilidad de agua en embalses. En este contexto, se desarrolla **SIMPCCe**, una herramienta que permite realizar simulaciones de pronósticos de cambio climático aplicados a embalses.
 
-## Aplicación SIMPCCe
+## Capturas de pantalla de la aplicación SIMPCCe
 
-Además de la creación de la librería **SIMPCCe**, se ha desarrollado una aplicación con el mismo nombre que permite aplicar la metodología sin necesidad de ejecutar código ni instalar dependencias. La aplicación es un ejecutable interactivo que permite configurar proyectos en un punto deseado.
+**Figura 1 - Capturas de pantalla de la aplicación SIMPCCe**
 
-📥 Para obtener la aplicación, acceda a la sección **Releases** de esta página o descargue directamente el archivo: **[SIMPCCe.exe](#)**
+## Descripción
 
-📖 Consulte el **[Manual SIMPCCe](#)** para conocer el funcionamiento de la aplicación.
+Se ha desarrollado la aplicación **SIMPCCe**, una herramienta innovadora para la evaluación de los efectos del cambio climático en los embalses. Su objetivo es facilitar la implementación de metodologías avanzadas sin la necesidad de ejecutar código o instalar múltiples dependencias. 
 
-> ⚠️ **Nota importante:** La librería y la aplicación están diseñadas para un uso complementario a la guía metodológica. Se recomienda su lectura para garantizar una correcta aplicación.
+### Principales características:
 
----
+1. **Análisis de datos hidrometeorológicos**: Integración de datos climáticos proyectados y mediciones históricas para estimar el impacto en embalses.
+2. **Uso de Inteligencia Artificial**: Aplicación de modelos de **aprendizaje automático y redes neuronales** para identificar patrones y realizar pronósticos hidrológicos.
+3. **Generación de escenarios de cambio climático**: Modelado de distintos escenarios para evaluar la resiliencia de embalses a condiciones futuras.
+4. **Interfaz intuitiva**: Permite configurar y ejecutar análisis sin necesidad de conocimientos avanzados en programación.
 
-# Contenido del Repositorio
+## Capturas de pantalla de la aplicación SIMPCCe
 
-| Directorio    | Contenido |
-|--------------|---------------------------------------------------------|
-| `SIMPCCe`   | Código en Python que implementa la librería SIMPCCe. |
-| `notebooks`  | Jupyter Notebooks con ejemplos prácticos de aplicación. |
+**Figura 2 - Capturas de pantalla de los módulos de análisis y predicción de SIMPCCe**
 
----
+## Perspectivas
 
-# Requerimientos para el uso de la librería SIMPCCe
+🏞️ 📊 Los gestores del agua y responsables de la planificación hidrológica podrán acceder a información detallada y en tiempo real sobre la evolución del almacenamiento en embalses.
 
-Los scripts y notebooks se proporcionan en **Python** para garantizar la reproducibilidad y reutilización de los resultados. Se recomienda utilizar un entorno **Conda** para su instalación.
+🌍 🔍 📉 La integración de IA en el análisis de pronósticos climáticos permitirá mejorar la gestión del agua y mitigar impactos negativos.
 
-### Instalación de Anaconda y Python
+## Otras observaciones
 
-Para facilitar la instalación de Python y las bibliotecas necesarias, se recomienda el uso de **Anaconda**:
+📄 **Publicación científica:** En proceso de indexación con DOI pendiente.
 
-1. Visite la [página de descargas de Anaconda](https://www.anaconda.com/download/).
-2. Seleccione su sistema operativo (**Windows, macOS, Linux**).
-3. Descargue la versión de **Python 3.X**.
+🌏 **Implementación:** Aplicación utilizada en proyectos de gestión del agua en colaboración con IHCantabria.
 
-### Instalación de la librería SIMPCCe
-
-```bash
-conda env create -f environment.yml
-conda activate SIMPCCe_env
-```
-
-Si ha clonado o descargado la librería en su equipo, desde la carpeta donde se encuentra el archivo `setup.py`, ejecute:
-
-```bash
-pip install -e .
-```
-
-También puede instalar la librería directamente desde GitHub:
-
-```bash
-pip install git+https://github.com/IHCantabria/SIMPCCe
-```
+💰 **Financiación:** Proyecto desarrollado con el apoyo del Instituto de Hidráulica Ambiental de Cantabria (IHC).
 
 ---
 
-# Ejemplo de Uso
+## Instalación y uso de la librería SIMPCCe
 
-Los ejemplos de uso de la librería SIMPCCe están disponibles en **Jupyter Notebooks**. Para ejecutarlos:
+Para utilizar la librería SIMPCCe en Python, siga los siguientes pasos:
 
-1. Descargue la carpeta `notebooks` desde el repositorio o navegue hasta ella si ha clonado el repo.
-2. Abra **Jupyter Notebook** o **Jupyter Lab** con el siguiente comando:
+### Instalación
 
+1. **Configurar entorno Conda**
+   ```bash
+   conda env create -f environment.yml
+   conda activate SIMPCCe_env
+   ```
+
+2. **Instalar la librería**
+   ```bash
+   pip install -e .
+   ```
+   También puede instalarse directamente desde GitHub:
+   ```bash
+   pip install git+https://github.com/IHCantabria/SIMPCCe
+   ```
+
+### Ejemplo de uso
+
+Los ejemplos de uso de la librería SIMPCCe están disponibles en Jupyter Notebooks. Para ejecutarlos:
+
+1. Descargue la carpeta `notebooks` del repositorio.
+2. Ejecute Jupyter Notebook:
    ```bash
    jupyter notebook
    ```
-
 3. Abra el notebook de prueba en la carpeta `Aplicación_SIMPCCe`.
-4. Asegúrese de que las carpetas `data` e `images` estén en la ubicación correcta para visualizar y ejecutar el notebook correctamente.
 
 ---
 
-# Colaboradores
+## Colaboradores
 
-📌 **Desarrolladores de la versión original de SIMPCCe:**
-
+📌 **Desarrolladores de la versión original:**
 - Salvador Navas
 - Manuel del Jesus
 
-📧 **Contacto:** Para consultas o soporte, escriba a **[simpcce@ihcantabria.com](mailto:simpcce@ihcantabria.com)**
+📧 **Contacto:** simpcce@ihcantabria.com
 
----
+## Licencia
 
-# Licencia
+La aplicación SIMPCCe ha sido desarrollada por el **Instituto de Hidráulica Ambiental de Cantabria (IHC)** como herramienta de apoyo en la gestión de embalses bajo escenarios de cambio climático.
 
-La aplicación SIMPCCe ha sido desarrollada por el **Instituto de Hidráulica Ambiental de Cantabria (IHC)** como herramienta complementaria a la guía metodológica.
+🔗 **Software libre:** Distribuido bajo la **Licencia Pública General GNU (GPL v3)**.
 
-- **Este software es de código abierto** y se distribuye bajo la **Licencia Pública General GNU (GPL v3)**.
-- **No se garantiza soporte ni mantenimiento** por parte de IH Cantabria.
-- **El desarrollador declina toda responsabilidad** sobre la información generada por la aplicación y su uso.
-
-🔗 Para más detalles, consulte la licencia completa en: [https://www.gnu.org/licenses/](https://www.gnu.org/licenses/)
+📜 Consulte la licencia completa en: [https://www.gnu.org/licenses/](https://www.gnu.org/licenses/)
