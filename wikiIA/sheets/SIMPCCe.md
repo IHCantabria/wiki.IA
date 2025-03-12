@@ -1,41 +1,38 @@
-# SIMPCCe - Simulador de Pronósticos de Cambio Climático en Embalses
+# SIMPCCe - Climate Change Forecasting Simulator for Reservoirs
 🌊 📊 #climate-change #reservoirs #hydrology #forecasting #machine-learning #data-science
 
-## Contexto
+## Context
 
-A medida que el cambio climático altera los patrones hidrológicos, se vuelve esencial contar con herramientas que permitan evaluar y prever el impacto en la disponibilidad de agua en embalses. En este contexto, se desarrolla **SIMPCCe**, una herramienta que permite realizar simulaciones de pronósticos de cambio climático aplicados a embalses.
+As climate change alters hydrological patterns, it is essential to have tools that allow evaluating and forecasting the impact on water availability in reservoirs. In this context, **SIMPCCe** is developed as a tool to perform simulations of climate change forecasts applied to reservoirs.
 
-## Capturas de pantalla de la aplicación SIMPCCe
+## SIMPCCe Application Screenshots
 
 <figure align="center">
-   <img src="../_static/images/SIMPCCe.png" alt="Capturas de pantalla de la aplicación SIMPCCe" />
-   <figcaption><i>Figura 1 - Capturas de pantalla de la aplicación SIMPCCe</i></figcaption>
+   <img src="../_static/images/SIMPCCe.png" alt="Screenshots of the SIMPCCe application" />
+   <figcaption><i>Figure 1 - Screenshots of the SIMPCCe application</i></figcaption>
 </figure>
 
-## Descripción
+## Description
 
-Se ha desarrollado la aplicación **SIMPCCe**, una herramienta innovadora para la evaluación de los efectos del cambio climático en los embalses. Su objetivo es facilitar la implementación de metodologías avanzadas sin la necesidad de ejecutar código o instalar múltiples dependencias. 
+The **SIMPCCe** application has been developed as an innovative tool for evaluating the effects of climate change on reservoirs. Its objective is to facilitate the implementation of advanced methodologies without requiring code execution or the installation of multiple dependencies.
 
-### Principales características:
+### Main Features:
 
-1. **Análisis de datos hidrometeorológicos**: Integración de datos climáticos proyectados y mediciones históricas para estimar el impacto en embalses.
-2. **Uso de Inteligencia Artificial**: Aplicación de modelos de **aprendizaje automático y redes neuronales** para identificar patrones y realizar pronósticos hidrológicos.
-3. **Generación de escenarios de cambio climático**: Modelado de distintos escenarios para evaluar la resiliencia de embalses a condiciones futuras.
-4. **Interfaz intuitiva**: Permite configurar y ejecutar análisis sin necesidad de conocimientos avanzados en programación.
+1. **Hydrometeorological Data Analysis**: Integration of projected climate data and historical measurements to estimate the impact on reservoirs.
+2. **Use of Artificial Intelligence**: Application of **machine learning models and neural networks** to identify patterns and perform hydrological forecasts.
+3. **Generation of Climate Change Scenarios**: Modeling of different scenarios to assess the resilience of reservoirs under future conditions.
+4. **Intuitive Interface**: Allows configuring and executing analyses without requiring advanced programming knowledge.
 
-## Perspectivas
+## Perspectives
 
-🏞️ 📊 Los gestores del agua y responsables de la planificación hidrológica podrán acceder a información detallada y en tiempo real sobre la evolución del almacenamiento en embalses.
+🏞️ 📊 Water managers and hydrological planning authorities will be able to access detailed and real-time information on the evolution of reservoir storage.
 
-🌍 🔍 📉 La integración de IA en el análisis de pronósticos climáticos permitirá mejorar la gestión del agua y mitigar impactos negativos.
+🌍 🔍 📉 Integrating AI into climate forecasting analysis will enhance water management and help mitigate negative impacts.
 
-## Otras observaciones
+## Additional Notes
 
-📄 **Publicación científica:** [SIMPCCe: Simulador de Pronósticos de Cambio Climático en Embalses](https://zenodo.org/record/11103323)
+📄 **Scientific Publication:** [SIMPCCe: Climate Change Forecasting Simulator for Reservoirs](https://zenodo.org/record/11103323)
 
-🌏 **Implementación:** Aplicación utilizada en proyectos de gestión del agua en colaboración con IHCantabria.
-
-💰 **Financiación:** Proyecto desarrollado con el apoyo del Instituto de Hidráulica Ambiental de Cantabria (IHC).
+🌏 **Implementation:** Application used in water management projects in collaboration with IHCantabria.
 
 ---
-
