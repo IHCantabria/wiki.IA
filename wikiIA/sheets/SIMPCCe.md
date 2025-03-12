@@ -7,7 +7,10 @@ A medida que el cambio climático altera los patrones hidrológicos, se vuelve e
 
 ## Capturas de pantalla de la aplicación SIMPCCe
 
-**Figura 1 - Capturas de pantalla de la aplicación SIMPCCe**
+<figure align="center">
+   <img src="./static/images/SIMPCCe.png" alt="Capturas de pantalla de la aplicación SIMPCCe" />
+   <figcaption><i>Figura 1 - Capturas de pantalla de la aplicación SIMPCCe</i></figcaption>
+</figure>
 
 ## Descripción
 
@@ -19,10 +22,6 @@ Se ha desarrollado la aplicación **SIMPCCe**, una herramienta innovadora para l
 2. **Uso de Inteligencia Artificial**: Aplicación de modelos de **aprendizaje automático y redes neuronales** para identificar patrones y realizar pronósticos hidrológicos.
 3. **Generación de escenarios de cambio climático**: Modelado de distintos escenarios para evaluar la resiliencia de embalses a condiciones futuras.
 4. **Interfaz intuitiva**: Permite configurar y ejecutar análisis sin necesidad de conocimientos avanzados en programación.
-
-## Capturas de pantalla de la aplicación SIMPCCe
-
-**Figura 2 - Capturas de pantalla de los módulos de análisis y predicción de SIMPCCe**
 
 ## Perspectivas
 
@@ -39,3 +38,4 @@ Se ha desarrollado la aplicación **SIMPCCe**, una herramienta innovadora para l
 💰 **Financiación:** Proyecto desarrollado con el apoyo del Instituto de Hidráulica Ambiental de Cantabria (IHC).
 
 ---
+
