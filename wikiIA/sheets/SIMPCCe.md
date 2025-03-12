@@ -8,7 +8,7 @@ A medida que el cambio climático altera los patrones hidrológicos, se vuelve e
 ## Capturas de pantalla de la aplicación SIMPCCe
 
 <figure align="center">
-   <img src="./_static/images/SIMPCCe.png" alt="Capturas de pantalla de la aplicación SIMPCCe" />
+   <img src="../_static/images/SIMPCCe.png" alt="Capturas de pantalla de la aplicación SIMPCCe" />
    <figcaption><i>Figura 1 - Capturas de pantalla de la aplicación SIMPCCe</i></figcaption>
 </figure>
 
