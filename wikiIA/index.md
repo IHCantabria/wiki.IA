@@ -46,3 +46,4 @@ YEAR | TITLE  | GROUP        |  MORE INFO
 2024 | REFCON | ECONT | [description sheet](sheets/REFCON.md)
 2022 | RIVERLANDS-PICOS | ECONT | [description sheet](sheets/RIVERLANDS-PICOS.md)
 2025 | BOSQUES DE RIBERA | ECONT | [description sheet](sheets/BOSQUES_RIBERA.md)
+2025 | INTELIGENTE | ENERGÍA (A2) | [description sheet](sheets/INTELIGENTE.md)
