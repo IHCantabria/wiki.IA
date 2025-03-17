@@ -46,3 +46,6 @@ YEAR | TITLE  | GROUP        |  MORE INFO
 2024 | REFCON | ECONT | [description sheet](sheets/REFCON.md)
 2022 | RIVERLANDS-PICOS | ECONT | [description sheet](sheets/RIVERLANDS-PICOS.md)
 2025 | BOSQUES DE RIBERA | ECONT | [description sheet](sheets/BOSQUES_RIBERA.md)
+2025 | CoCliCo | Clima (A2) | [description sheet](sheets/CoCliCo.md)
+2022 | TRAMUNTANA | Clima (A2) | [description sheet](sheets/TRAMUNTANA.md)
+2018 | TRL+ | Clima (A2) | [description sheet](sheets/TRL_plus.md)
