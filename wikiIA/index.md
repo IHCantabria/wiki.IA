@@ -46,4 +46,10 @@ YEAR | TITLE  | GROUP        |  MORE INFO
 2024 | REFCON | ECONT | [description sheet](sheets/REFCON.md)
 2022 | RIVERLANDS-PICOS | ECONT | [description sheet](sheets/RIVERLANDS-PICOS.md)
 2025 | BOSQUES DE RIBERA | ECONT | [description sheet](sheets/BOSQUES_RIBERA.md)
-2025 | GEMELO DIGITAL | ADAPTA | [description sheet](sheets/GEMELO_DIGITAL.md)
+2025 | COASTDITWIN | ADAPTA (A2) | [description sheet](sheets/GEMELO_DIGITAL.md)
+2025 | SATELLITE-BASED LAND USE DETECTION | ADAPTA (A2) | [description sheet](sheets/USOS_SUELO.md)
+2025 | COASTAL STRUCTURE DETECTION (PhD THESIS IRIA) | ADAPTA (A2) | [description sheet](sheets/DETECCION_ESTRUCTURAS.md)
+2025 | PROJECTION OF COMPOUND EVENTS IN A CLIMATE CHANGE CONTEXT | ADAPTA (A2) | [description sheet](sheets/COMPOUND.md)
+2025 | COASTAL FLOODING IN URBAN COASTAL AREAS | ADAPTA (A2) | [description sheet](sheets/USOS_SUELO.md)
+
+
