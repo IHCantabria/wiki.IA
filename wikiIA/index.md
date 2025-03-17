@@ -46,3 +46,6 @@ YEAR | TITLE  | GROUP        |  MORE INFO
 2024 | REFCON | ECONT | [description sheet](sheets/REFCON.md)
 2022 | RIVERLANDS-PICOS | ECONT | [description sheet](sheets/RIVERLANDS-PICOS.md)
 2025 | BOSQUES DE RIBERA | ECONT | [description sheet](sheets/BOSQUES_RIBERA.md)
+2022 | PROAS LANGOSTEIRA | PUERTOS (A2) | [description sheet](sheets/PROAS_LANGOSTEIRA.md)
+2023 | DARSENA DE AFRICA | PUERTOS (A2) | [description sheet](sheets/DARSENA_AFRICA.md)
+2023 | EROSION GUADALQUIVIR | PUERTOS (A2) | [description sheet](sheets/EROSION_GUADALQUIVIR.md)
