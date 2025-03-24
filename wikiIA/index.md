@@ -58,4 +58,4 @@ YEAR | TITLE  | GROUP        |  MORE INFO
 2025 | PROJECTION OF COMPOUND EVENTS IN A CLIMATE CHANGE CONTEXT | ADAPTA (A2) | [description sheet](sheets/COMPOUND.md)
 2025 | COASTAL FLOODING IN URBAN COASTAL AREAS | ADAPTA (A2) | [description sheet](sheets/GARACHICO.md)
 2025 | OEFS-Santander-AI | OCEANOS (A3) | [description sheet](sheets/OEFS-Santander-AI.md)
-
+2025 | INTELIGENTE | ENERGÍA (A2) | [description sheet](sheets/INTELIGENTE.md)
