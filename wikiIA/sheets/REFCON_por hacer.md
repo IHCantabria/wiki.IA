@@ -30,10 +30,8 @@ The integration of virtual watersheds with ecological datasets forms the foundat
 * A variety of machine and deep learning approaches from Random Forest to Neural Networks or Extreme Gradient boosting can be implemented within the general modelling approach
 * Providing information of freshwater ecosystems to entire river networks set the basis for river management based on decision support systems
 
-
 ## Additional Notes
 
-### Other Remarks
 * Object of several scientific publications:
     *    doi: [10.1016/j.jhydrol.2019.03.056](https://doi.org/10.1016/j.jhydrol.2019.03.056)
     *    doi: [10.1016/j.scitotenv.2015.12.109](http://dx.doi.org/10.1016/j.scitotenv.2015.12.109)
