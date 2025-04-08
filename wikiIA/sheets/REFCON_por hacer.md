@@ -32,10 +32,17 @@ The integration of virtual watersheds with ecological datasets forms the foundat
 
 ## Additional Notes
 
-📄 **Object of several scientific publications:** [SIMPCCe on GitHub](https://github.com/IHCantabria/SIMPCCe)
+### Other Remarks
+* Object of several scientific publications:
+*    doi: [10.1016/j.jhydrol.2019.03.056](https://doi.org/10.1016/j.jhydrol.2019.03.056)
+*    doi: [10.1016/j.scitotenv.2015.12.109](http://dx.doi.org/10.1016/j.scitotenv.2015.12.109)
+*    doi: [10.1002/rra.3456](https://doi.org/10.1002/rra.3456)                         
+* Other implementation done by IHCantabria in Uruguay ([Reference](https://saras-institute.org/es/cuencas-virtuales/))
+* IH Cantabria collaborates with **Terrain Works (USA)** for the development of virtual watersheds
+* These tools have been funded by several research and technical assistance projects including MARCE, RIVERLANDS, HANSEL or REFCON
 
-📄 **Scientific Publication:** [SIMPCCe: Climate Change Forecasting Simulator for Reservoirs](https://zenodo.org/record/11103323)
 
-🌏 IH Cantabria **collaborates with Terrain Works (USA)** for the development of virtual watersheds
-📄 **Other implementation** done by IHCantabria in Uruguay
-    These tools have been funded by several research and technical assistance projects including MARCE, RIVERLANDS, HANSEL or REFCON.
+<p align="center">
+<img align="center" src="../_static/images/UC+FIHAC+IHCantabrianegro.png" width="500"/>
+</p>
+
