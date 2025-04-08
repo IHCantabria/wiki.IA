@@ -13,7 +13,7 @@ These virtual watersheds are integrated with ecological datasets from various da
 
 
 <figure align="center">
-   <img src="../_static/images/Imagen REFCON.jpg" alt="Modelling approach REFCON" />
+   <img src="../_static/images/Imagen REEFCON.jpg" alt="Modelling approach REFCON" />
    <figcaption><i>Figure 1 - Scheme of the modelling approach to model the reference condition in Spain</i></figcaption>
 </figure>
 
