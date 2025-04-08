@@ -13,13 +13,13 @@ These virtual watersheds are integrated with ecological datasets from various da
 
 
 <figure align="center">
-   <img src="../_static/images/Imagen REFCON.jpg" alt="Screenshots of the SIMPCCe application" />
+   <img src="../_static/images/Imagen REFCON.jpg" alt="Modelling approach REFCON" />
    <figcaption><i>Figure 1 - Scheme of the modelling approach to model the reference condition in Spain</i></figcaption>
 </figure>
 
 The integration of virtual watersheds with ecological datasets forms the foundation for developing machine and deep learning algorithms that will enable the following:
 
-1. ** **Determine the predictor variables** that contribute significantly to each model.
+1. **Determine the predictor variables** that contribute significantly to each model.
 2. Predict the values of the target ecological component **across the entire river network** of mainland Spain and understand the spatial patterns associated with their distribution.
 3. **Evaluate the spatial distribution**of predicted values to understand the spatial patterns associated with their distribution.
 4. **Interpret and contextualize the result** within the broader ecological and legal framework, such as the concept of Ecological Status under the Water Framework Directive.
