@@ -17,6 +17,7 @@ These virtual watersheds are integrated with ecological datasets from various da
    <figcaption><i>Figure 1 - Scheme of the modelling approach to model the reference condition in Spain</i></figcaption>
 </figure>
 
+
 The integration of virtual watersheds with ecological datasets forms the foundation for developing machine and deep learning algorithms that will enable the following:
 
 1. **Determine the predictor variables** that contribute significantly to each model.
@@ -34,9 +35,9 @@ The integration of virtual watersheds with ecological datasets forms the foundat
 
 ### Other Remarks
 * Object of several scientific publications:
-*    doi: [10.1016/j.jhydrol.2019.03.056](https://doi.org/10.1016/j.jhydrol.2019.03.056)
-*    doi: [10.1016/j.scitotenv.2015.12.109](http://dx.doi.org/10.1016/j.scitotenv.2015.12.109)
-*    doi: [10.1002/rra.3456](https://doi.org/10.1002/rra.3456)                         
+    *    doi: [10.1016/j.jhydrol.2019.03.056](https://doi.org/10.1016/j.jhydrol.2019.03.056)
+    *    doi: [10.1016/j.scitotenv.2015.12.109](http://dx.doi.org/10.1016/j.scitotenv.2015.12.109)
+    *    doi: [10.1002/rra.3456](https://doi.org/10.1002/rra.3456)                         
 * Other implementation done by IHCantabria in Uruguay ([Reference](https://saras-institute.org/es/cuencas-virtuales/))
 * IH Cantabria collaborates with **Terrain Works (USA)** for the development of virtual watersheds
 * These tools have been funded by several research and technical assistance projects including MARCE, RIVERLANDS, HANSEL or REFCON
