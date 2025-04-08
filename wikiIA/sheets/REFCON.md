@@ -17,6 +17,7 @@ These virtual watersheds are integrated with ecological datasets from various da
    <figcaption><i>Figure 1 - Scheme of the modelling approach to model the reference condition in Spain</i></figcaption>
 </figure>
 
+##
 
 The integration of virtual watersheds with ecological datasets forms the foundation for developing machine and deep learning algorithms that will enable the following:
 
