@@ -43,7 +43,7 @@ This system based on AI only requires the predicted temporal series of the main 
     * [MARION](https://ihcantabria.com/en/data-science-and-artificial-intelligence-are-some-of-the-methods-used-by-marion-the-marine-pollution-prevention-system-developed-at-ihcantabria/): part of the ThinkInAzul programme and supported by Ministerio de Ciencia e Innovación with funding from European Union NextGeneration EU (PRTR-C17.I1) and by Comunidad de Cantabria 
 
     <p align="right">
-    <img src="../_static/images/PCM-socios.png" height=80/>
+    <img src="../_static/images/PCM-socios.png" height=75/>
     <img src="../_static/images/logos-PCM.png" height=50/>
     </p>
 
@@ -51,8 +51,8 @@ This system based on AI only requires the predicted temporal series of the main 
 
 
 <p align="right">
-<img src="../_static/images/CMEMS DEMO_2024.png" height=80/>
-<img src="../_static/images/Mercator.png" height=80/>
+<img src="../_static/images/CMEMS DEMO_2024.png" height=50/>
+<img src="../_static/images/Mercator.png" height=50/>
 </p>
 
 
