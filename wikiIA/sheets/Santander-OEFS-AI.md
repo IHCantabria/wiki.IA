@@ -49,11 +49,10 @@ This system based on AI only requires the predicted temporal series of the main 
 
     * [COSNORTH](https://ihcantabria.com/en/cosnorth-offers-improved-environmental-maritime-and-climate-services-on-spains-northern-coastline/): inside the CMEMS National Collabortaion Program funded by Mercator International
 
-
-<p align="right">
-<img src="../_static/images/CMEMS DEMO_2024.png" height=50/>
-<img src="../_static/images/Mercator.png" height=50/>
-</p>
+    <p align="right">
+    <img src="../_static/images/CMEMS DEMO_2024.png" height=50/>
+    <img src="../_static/images/Mercator.png" height=50/>
+    </p>
 
 
 <p align="center">
