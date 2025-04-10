@@ -7,8 +7,8 @@
 ### Context
 Operational systems based on physical modelling are powerfull tools to predict and forecast meteooceanographic variables. As a counter part, these tools normally required of high computational demands and/or long computational windows to provide to the end users its results. With the aim of obtaining a balance between this requeriements and an optimal results accuracy for the majority of the problems where these variables are used, the training of a deeplearning neuronal network is used in order to be capable to forecasting waterlevels and currents velocity fields in the Bay of Santander.
 
-<figure align="left">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8FVaKXsJN7SjVZG5-nMK0WaFQ1jprkwRWqg&s" alt="Screenshots of SOSeas mobile application" width="200"/>
+<figure align="center">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8FVaKXsJN7SjVZG5-nMK0WaFQ1jprkwRWqg&s" alt="Screenshots of SOSeas mobile application" width="300"/>
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD_-EYNG7j_xt-KUqHngVDuL87gs8YuBTSkg&s" alt="Screenshots of SOSeas mobile application" width="300"/>
     <figcaption><i>Figure 1 - Map of the Bay of Santander (left) and LSTM diagram (rigth)</i></figcaption>
 </figure>
@@ -20,7 +20,7 @@ This neural network system is cappable to predict more than 72h of waterlevel an
 
 This system based on AI only requires the predicted temporal series of the main regional drivers on one point (predictors) to assess the complete high resolution forecasting on the Bay of Santander in a few minutes.
 
-<figure align="left">
+<figure align="center">
     <img src="" width="150"/>
     <figcaption><i>Figure 2 - Results of Santander OEFS AI </i></figcaption>
 </figure>
@@ -35,24 +35,24 @@ This system based on AI only requires the predicted temporal series of the main 
 
 
 ### Other Remarks
-* This operational system has been developed in the framework of the phD thesis of [Mirko Rupani]() ex-member of IHCantabria.
+* This operational system has been developed in the framework of the [PhD thesis of Mirko Rupani](https://ihcantabria.com/en/scientific-production/phd-theses-2/) ex-member of IHCantabria.
     * Scientific publication is under development based on this work
 
 * The development and final integration of the system has been carried out in the framework of different projects:
 
-    * [MARION](): part of the ThinkInAzul programme and supported by Ministerio de Ciencia e Innovación with funding from European Union NextGeneration EU (PRTR-C17.I1) and by Comunidad de Cantabria 
+    * [MARION](https://ihcantabria.com/en/data-science-and-artificial-intelligence-are-some-of-the-methods-used-by-marion-the-marine-pollution-prevention-system-developed-at-ihcantabria/): part of the ThinkInAzul programme and supported by Ministerio de Ciencia e Innovación with funding from European Union NextGeneration EU (PRTR-C17.I1) and by Comunidad de Cantabria 
 
     <p align="right">
-    <img src="../_static/images/PCM-socios.png" width=500/>
-    <img src="../_static/images/logos-PCM.png" width=500/>
+    <img src="../_static/images/PCM-socios.png" height=80/>
+    <img src="../_static/images/logos-PCM.png" height=50/>
     </p>
 
-    * [COSNORTH](): inside the CMEMS National Collabortaion Program funded by [Mercator International]()
+    * [COSNORTH](https://ihcantabria.com/en/cosnorth-offers-improved-environmental-maritime-and-climate-services-on-spains-northern-coastline/): inside the CMEMS National Collabortaion Program funded by Mercator International
 
 
 <p align="right">
-<img src="../_static/images/CMEMS DEMO_2024.png" width=80/>
-<img src="../_static/images/Mercator.png" width=80/>
+<img src="../_static/images/CMEMS DEMO_2024.png" height=80/>
+<img src="../_static/images/Mercator.png" height=80/>
 </p>
 
 
