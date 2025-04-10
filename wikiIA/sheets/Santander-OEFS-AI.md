@@ -26,28 +26,26 @@ This system based on AI only requires the predicted temporal series of the main 
 </figure>
 
 ### Insights
-🌊 This system provides 3 day hourly high resolution hydrodynamic forecast in the Bay of Santander including the following variables: ↕️water level and 🔀surface currents
-
+🌊 This system provides 3 days of hourly high resolution hydrodynamic forecasts in the Bay of Santander including the following variables: ↕️water level and 🔀surface currents.
 
 ⏳ This development allows a significant reduction of the resources required to mantain the system, keeping a reseonable acuracy of the results for the majority of the use cases in which this information is required.
 
-💡 Moreover, the implementation of these deeplearning algorithms allows us to keep researching in the use of this techniques and the intercomparishon with traditional physical models.
-
+💡 Moreover, the implementation of these deeplearning algorithms allows us to keep researching in the use of this innovative techniques and with the intercomparishon against traditional physical models.
 
 ### Other Remarks
 * This operational system has been developed in the framework of the [PhD thesis of Mirko Rupani](https://ihcantabria.com/en/scientific-production/phd-theses-2/) ex-member of IHCantabria.
-    * Scientific publication is under development based on this work
+    * Scientific publication is under development based on this work.
 
 * The development and final integration of the system has been carried out in the framework of different projects:
 
-    * [MARION](https://ihcantabria.com/en/data-science-and-artificial-intelligence-are-some-of-the-methods-used-by-marion-the-marine-pollution-prevention-system-developed-at-ihcantabria/): part of the ThinkInAzul programme and supported by Ministerio de Ciencia e Innovación with funding from European Union NextGeneration EU (PRTR-C17.I1) and by Comunidad de Cantabria 
+    * [MARION](https://ihcantabria.com/en/data-science-and-artificial-intelligence-are-some-of-the-methods-used-by-marion-the-marine-pollution-prevention-system-developed-at-ihcantabria/): This project is part of the ThinkInAzul programme and it is supported by Ministerio de Ciencia e Innovación with funding from European Union NextGeneration EU (PRTR-C17.I1) and by Comunidad de Cantabria.
 
     <p align="right">
     <img src="../_static/images/PCM-socios.png" height=75/>
     <img src="../_static/images/logos-PCM.png" height=50/>
     </p>
 
-    * [COSNORTH](https://ihcantabria.com/en/cosnorth-offers-improved-environmental-maritime-and-climate-services-on-spains-northern-coastline/): inside the CMEMS National Collabortaion Program funded by Mercator International
+    * [COSNORTH](https://ihcantabria.com/en/cosnorth-offers-improved-environmental-maritime-and-climate-services-on-spains-northern-coastline/): It is a project inside the CMEMS National Collabortaion Program funded by Mercator International.
 
     <p align="right">
     <img src="../_static/images/CMEMS DEMO_2024.png" width=80/>
