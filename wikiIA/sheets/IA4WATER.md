@@ -32,6 +32,13 @@ Model fit was as good as R2=0.97 and RMSE=0.65 for the location were water tempe
 * This modelling approach allows to fill temporal and spatial gaps in water temperature data, improving our capacity to assess the impacts of changes in climate and land use change on river conservation status and the subsequent effects on aquatic biodiversity
 
 
+
+
+<p align="center">
+<img align="center" src="../_static/images/UC+FIHAC+IHCantabrianegro.png" width="500"/>
+</p>
+
+
 ## Insights
 
 * Using global, open-access products opens up the possibilities of predicting water temperature in any region and making projections with future climate data
