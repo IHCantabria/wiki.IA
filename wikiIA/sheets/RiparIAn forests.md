@@ -39,6 +39,7 @@ The input data are georeferenced training points with habitat type information, 
    <figcaption><i>Figure 4 -  Multitemporal pixel-level modelling.</i></figcaption>
 </figure>
 
+##
 
 
 <p align="center">
