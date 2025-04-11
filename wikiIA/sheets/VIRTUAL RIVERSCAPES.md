@@ -1,4 +1,4 @@
-# REFCON - A digital large-scale modelling platform of freshwater ecosystems 
+# VIRTUAL RIVERSCAPES - A digital large-scale modelling platform of freshwater ecosystems 
 #rivernewworks #virtualwatersheds #ecosystem indicators #ranfom forest #extreme gradient boosting #deep-learning
 
 ## Context
