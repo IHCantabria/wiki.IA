@@ -18,7 +18,13 @@ Using the open-source AutoML library (Amazon Web Services), we developed a simpl
 
 ##
 
-Model fit was as good as R2=0.97 and RMSE=0.65 for the location were water temperature was best predicted (Figure 2).
+Model fit was as good as R2=0.97 and RMSE=0.65 for the location were water temperature was best predicted (Figure 2).                                                                                                                                                          
+                                             
+
+
+
+
+
 
 <figure align="center">
    <img src="../_static/images/Ficha_Proyecto_IA_Temperatura_Fig2.png" alt="model fit" />
@@ -31,6 +37,12 @@ Model fit was as good as R2=0.97 and RMSE=0.65 for the location were water tempe
 * Machine learning techniques such as random forests and neuronal networks can deal reasonably well with short to medium-term time series and potentially autocorrelated predictor variables to predict water temperature
 * This modelling approach allows to fill temporal and spatial gaps in water temperature data, improving our capacity to assess the impacts of changes in climate and land use change on river conservation status and the subsequent effects on aquatic biodiversity
 
+## Insights
+
+* Using global, open-access products opens up the possibilities of predicting water temperature in any region and making projections with future climate data
+* Water resource and environmental managers can improve conservation and restoration strategies at the basin and regional scale
+
+##
 
 
 <p align="center">
@@ -38,7 +50,4 @@ Model fit was as good as R2=0.97 and RMSE=0.65 for the location were water tempe
 </p>
 
 
-## Insights
 
-* Using global, open-access products opens up the possibilities of predicting water temperature in any region and making projections with future climate data
-* Water resource and environmental managers can improve conservation and restoration strategies at the basin and regional scale
