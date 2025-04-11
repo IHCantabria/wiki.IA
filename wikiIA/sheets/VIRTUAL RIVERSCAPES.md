@@ -3,7 +3,7 @@
 
 ## Context
 
-Monitoring data from various ecosystem components—including abiotic factors, biodiversity, and ecosystem functioning—across vast territories requires substantial human and economic resources. As a result, researchers and managers of water resources and natural areas often have to rely on scattered information, with different types of data frequently lacking spatial alignment. he digital landscape and virtual watershed approaches, combined with advanced machine and deep learning techniques, enable the prediction of various ecosystem components across entire river networks. 
+Monitoring data from various ecosystem components—including abiotic factors, biodiversity, and ecosystem functioning—across vast territories requires substantial human and economic resources. As a result, researchers and managers of water resources and natural areas often have to rely on scattered information, with different types of data frequently lacking spatial alignment. The digital landscape and virtual watershed approaches, combined with advanced machine and deep learning techniques, enable the prediction of various ecosystem components across entire river networks. 
 
 ## Description
 
