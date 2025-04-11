@@ -28,7 +28,7 @@ Model fit was as good as R2=0.97 and RMSE=0.65 for the location were water tempe
 
 <figure align="center">
    <img src="../_static/images/Ficha_Proyecto_IA_Temperatura_Fig2.png" alt="model fit" />
-   <figcaption><i>Figure 1 - Water temperature prediction and model fit.</i></figcaption>
+   <figcaption><i>Figure 2 - Water temperature prediction and model fit.</i></figcaption>
 </figure>
 
 ## Highlights
