@@ -1,5 +1,5 @@
 # VIRTUAL RIVERSCAPES - A digital large-scale modelling platform of freshwater ecosystems 
-#rivernewworks #virtualwatersheds #ecosystem indicators #ranfom forest #extreme gradient boosting #deep-learning
+#rivernetworks #virtualwatersheds #ecosystem indicators #random forest #extreme gradient boosting #deep-learning
 
 ## Context
 
