@@ -34,11 +34,13 @@ The integration of virtual riverscape with ecological datasets forms the foundat
 ## Additional Notes
 
 * Object of several scientific publications:
+    *    doi: [10.1002/lno.70019](https://doi.org/10.1002/lno.70019) 
     *    doi: [10.1016/j.jhydrol.2019.03.056](https://doi.org/10.1016/j.jhydrol.2019.03.056)
     *    doi: [10.1016/j.scitotenv.2015.12.109](http://dx.doi.org/10.1016/j.scitotenv.2015.12.109)
-    *    doi: [10.1002/rra.3456](https://doi.org/10.1002/rra.3456)                         
+    *    doi: [10.1002/rra.3456](https://doi.org/10.1002/rra.3456)
+                          
 * Other implementation done by IHCantabria in Uruguay ([Reference](https://saras-institute.org/es/cuencas-virtuales/))
-* IH Cantabria collaborates with **Terrain Works (USA)** for the development of virtual watersheds
+* IH Cantabria collaborates with **Terrain Works (USA)** for the development of virtual riverscapes
 * These tools have been funded by several research and technical assistance projects including MARCE, RIVERLANDS, HANSEL or REFCON
 
 
