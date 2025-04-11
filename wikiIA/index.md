@@ -43,6 +43,6 @@ YEAR | TITLE  | GROUP        |  MORE INFO
 2022 | CICLOPE | OCEANOS (A3) | [description sheet](sheets/CICLOPE.md)
 2025 | OEFS-Santander-AI | OCEANOS (A3) | [description sheet](sheets/OEFS-Santander-AI.md)
 2023 | SIMPCCe| HIDRO-Clima (A2)| [description sheet](sheets/SIMPCCe.md)
-2024 | DIGITAL RIVERSCAPES | ECONT | [description sheet](sheets/REFCON.md)
+2024 | DIGITAL RIVERSCAPES | ECONT | [description sheet](sheets/VIRTUAL RIVERSCAPES.md)
 2022 | RIVERLANDS-PICOS | ECONT | [description sheet](sheets/RIVERLANDS-PICOS.md)
 2025 | BOSQUES DE RIBERA | ECONT | [description sheet](sheets/BOSQUES_RIBERA.md)
