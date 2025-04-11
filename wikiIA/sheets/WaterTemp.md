@@ -1,4 +1,4 @@
-# WAIT - Modelling Water Temperature Using AI and Global, Open-access Environmental Data 
+# IA4WATER - Modelling Water Temperature Using AI and Global, Open-access Environmental Data 
 #rivers #water #temperature #machine learning #land use change #climate change
 
 ## Context
