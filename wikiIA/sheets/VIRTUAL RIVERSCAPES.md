@@ -1,4 +1,4 @@
-# VIRTUAL RIVERSCAPES - A digital large-scale modelling platform of freshwater ecosystems 
+# DIGITAL RIVERSCAPES - A digital large-scale modelling platform of freshwater ecosystems 
 #rivernetworks #virtualwatersheds #ecosystem indicators #random forest #extreme gradient boosting #deep-learning
 
 ## Context
@@ -8,18 +8,18 @@ Monitoring data from various ecosystem components—including abiotic factors, b
 ## Description
 
 
-Since 2012, IHCantabria has been developing virtual river networks and watersheds, aka **VIRTUAL RIVERSCAPES**, at large spatial scales (e.g., Spain and EU, Uruguay, Chile). A virtual riverscape is essentially a digital representation of a watershed’s characteristics, designed to simulate spatially explicit watershed processes. It is typically structured as a fluvial network enriched with diverse layers of information, including topography, climate, geology, land use, and land cover, among others. It also incorporates data on key anthropogenic pressures affecting freshwater ecosystems, such as organic and industrial pollution, dams, reservoirs, and weirs.
-These virtual riverscapes are integrated with ecological datasets from various databases, which are used to train and validate models applied across the entire river network. The data span multiple ecosystem dimensions, including abiotic factors (e.g., nutrient levels, hydrological classifications), biodiversity (e.g., species presence, abundance, or biomass), and ecosystem functioning (e.g., river metabolism, organic matter decomposition). 
+Since 2012, IHCantabria has been developing virtual river networks and watersheds, aka **DIGITAL RIVERSCAPES**, at large spatial scales (e.g., Spain and EU, Uruguay, Chile). A digital riverscape is essentially a digital representation of a watershed’s characteristics, designed to simulate spatially explicit watershed processes. It is typically structured as a fluvial network enriched with diverse layers of information, including topography, climate, geology, land use, and land cover, among others. It also incorporates data on key anthropogenic pressures affecting freshwater ecosystems, such as organic and industrial pollution, dams, reservoirs, and weirs.
+These digital riverscapes are integrated with ecological datasets from various databases, which are used to train and validate models applied across the entire river network. The data span multiple ecosystem dimensions, including abiotic factors (e.g., nutrient levels, hydrological classifications), biodiversity (e.g., species presence, abundance, or biomass), and ecosystem functioning (e.g., river metabolism, organic matter decomposition). 
 
 
 <figure align="center">
    <img src="../_static/images/Imagen REEFCON.jpg" alt="Modelling approach REFCON" />
-   <figcaption><i>Figure 1 - Scheme of the modelling approach to model the reference condition in Spain</i></figcaption>
+   <figcaption><i>Figure 1 - Scheme of the modelling approach to model the ecological reference condition sensu WFD in Spain</i></figcaption>
 </figure>
 
 ##
 
-The integration of virtual riverscape with ecological datasets forms the foundation for developing machine and deep learning algorithms that will enable the following:
+The integration of digital riverscapes with ecological datasets forms the foundation for developing machine and deep learning algorithms that will enable the following:
 
 1. **Determine the predictor variables** that contribute significantly to each model.
 2. Predict the values of the target ecological component **across the entire digital riverscape**  and understand the spatial patterns associated with their distribution.
@@ -40,7 +40,7 @@ The integration of virtual riverscape with ecological datasets forms the foundat
     *    doi: [10.1002/rra.3456](https://doi.org/10.1002/rra.3456)
                           
 * Other implementation done by IHCantabria in Uruguay ([Reference](https://saras-institute.org/es/cuencas-virtuales/))
-* IH Cantabria collaborates with **Terrain Works (USA)** for the development of virtual riverscapes
+* IH Cantabria collaborates with **Terrain Works (USA)** for the development of digital riverscapes
 * These tools have been funded by several research and technical assistance projects including MARCE, RIVERLANDS, HANSEL or REFCON
 
 
