@@ -9,7 +9,7 @@ Monitoring data from various ecosystem components—including abiotic factors, b
 
 
 Since 2012, IHCantabria has been developing virtual river networks and watersheds, aka **VIRTUAL RIVERSCAPES**, at large spatial scales (e.g., Spain and EU, Uruguay, Chile). A virtual riverscape is essentially a digital representation of a watershed’s characteristics, designed to simulate spatially explicit watershed processes. It is typically structured as a fluvial network enriched with diverse layers of information, including topography, climate, geology, land use, and land cover, among others. It also incorporates data on key anthropogenic pressures affecting freshwater ecosystems, such as organic and industrial pollution, dams, reservoirs, and weirs.
-These virtual watersheds are integrated with ecological datasets from various databases, which are used to train and validate models applied across the entire river network. The data span multiple ecosystem dimensions, including abiotic factors (e.g., nutrient levels, hydrological classifications), biodiversity (e.g., species presence, abundance, or biomass), and ecosystem functioning (e.g., river metabolism, organic matter decomposition). 
+These virtual riverscapes are integrated with ecological datasets from various databases, which are used to train and validate models applied across the entire river network. The data span multiple ecosystem dimensions, including abiotic factors (e.g., nutrient levels, hydrological classifications), biodiversity (e.g., species presence, abundance, or biomass), and ecosystem functioning (e.g., river metabolism, organic matter decomposition). 
 
 
 <figure align="center">
@@ -19,10 +19,10 @@ These virtual watersheds are integrated with ecological datasets from various da
 
 ##
 
-The integration of virtual watersheds with ecological datasets forms the foundation for developing machine and deep learning algorithms that will enable the following:
+The integration of virtual riverscape with ecological datasets forms the foundation for developing machine and deep learning algorithms that will enable the following:
 
 1. **Determine the predictor variables** that contribute significantly to each model.
-2. Predict the values of the target ecological component **across the entire river network** of mainland Spain and understand the spatial patterns associated with their distribution.
+2. Predict the values of the target ecological component **across the entire digital riverscape**  and understand the spatial patterns associated with their distribution.
 3. **Evaluate the spatial distribution**of predicted values to understand the spatial patterns associated with their distribution.
 4. **Interpret and contextualize the result** within the broader ecological and legal framework, such as the concept of Ecological Status under the Water Framework Directive.
 
