@@ -33,7 +33,6 @@ Model fit was as good as R2=0.97 and RMSE=0.65 for the location were water tempe
 
 
 
-
 <p align="center">
 <img align="center" src="../_static/images/UC+FIHAC+IHCantabrianegro.png" width="500"/>
 </p>
