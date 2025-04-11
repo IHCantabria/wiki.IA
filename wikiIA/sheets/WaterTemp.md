@@ -1,42 +1,38 @@
-# WATER TEMPERATURE AI - Modelling Water Temperature Using AI and Global, Open-access Environmental Data 
-#rivernewworks #virtualwatersheds #ecosystem indicators #ranfom forest #extreme gradient boosting #deep-learning
+# WAIT - Modelling Water Temperature Using AI and Global, Open-access Environmental Data 
+#rivers #water #temperature #machine learning #land use change #climate change
 
 ## Context
 
-Monitoring data from various ecosystem components—including abiotic factors, biodiversity, and ecosystem functioning—across vast territories requires substantial human and economic resources. As a result, researchers and managers of water resources and natural areas often have to rely on scattered information, with different types of data frequently lacking spatial alignment. he digital landscape and virtual watershed approaches, combined with advanced machine and deep learning techniques, enable the prediction of various ecosystem components across entire river networks. 
+Stream temperature is a critical water quality determinant, influencing the spatial distribution of aquatic organisms and biological processes (Cassie, 2006). Climate change and land use change alter the drivers of stream temperature, the structure of stream systems (e.g., riparian forest degradation), or both, modifying natural stream temperature. However, we lack temperature data for most streams, and stream temperature data in the absence of human activity is particularly scarce in space and time. This hampers our ability to detect and quantify changes in stream temperature and evaluate global change impacts on rivers and associated ecosystems. 
 
 ## Description
 
 
-Since 2012, IHCantabria has been developing virtual watersheds at large spatial scales (e.g., Spain, Uruguay, Chile). A virtual watershed is essentially a digital representation of a watershed’s characteristics, designed to simulate spatially explicit watershed processes. It is typically structured as a fluvial network enriched with diverse layers of information, including topography, climate, geology, land use, and land cover, among others. It also incorporates data on key anthropogenic pressures affecting freshwater ecosystems, such as organic and industrial pollution, dams, reservoirs, and weirs.
-These virtual watersheds are integrated with ecological datasets from various databases, which are used to train and validate models applied across the entire river network. The data span multiple ecosystem dimensions, including abiotic factors (e.g., nutrient levels, hydrological classifications), biodiversity (e.g., species presence, abundance, or biomass), and ecosystem functioning (e.g., river metabolism, organic matter decomposition). 
+Using the open-source AutoML library (Amazon Web Services), we developed a simple code to build high-quality machine learning-based models to predict water temperature in time and space. The models were trained with short to medium-term time series of in situ water temperature measurements (Figure 1) and environmental predictors such as topography, river reach structure (elevation, draining area, distance to outlet), climatic variables from EMO-1 (European Commission, JRC) and land use data from CORINE Land Cover 2018 (COPERNICUS Land Monitoring Service).  
 
 
 <figure align="center">
-   <img src="../_static/images/Imagen REEFCON.jpg" alt="Modelling approach REFCON" />
-   <figcaption><i>Figure 1 - Scheme of the modelling approach to model the reference condition in Spain</i></figcaption>
+   <img src="../_static/images/Ficha_Proyecto_IA_Temperatura_Fig1.png" alt="temperature sensor" />
+   <figcaption><i>Figure 1 - Water temperature sensor and location in-stream.</i></figcaption>
 </figure>
 
 ##
 
-The integration of virtual watersheds with ecological datasets forms the foundation for developing machine and deep learning algorithms that will enable the following:
+Model fit was as good as R2=0.97 and RMSE=0.65 for the location were water temperature was best predicted (Figure 2).
 
-1. **Determine the predictor variables** that contribute significantly to each model.
-2. Predict the values of the target ecological component **across the entire river network** of mainland Spain and understand the spatial patterns associated with their distribution.
-3. **Evaluate the spatial distribution**of predicted values to understand the spatial patterns associated with their distribution.
-4. **Interpret and contextualize the result** within the broader ecological and legal framework, such as the concept of Ecological Status under the Water Framework Directive.
+<figure align="center">
+   <img src="../_static/images/Ficha_Proyecto_IA_Temperatura_Fig2.png" alt="model fit" />
+   <figcaption><i>Figure 1 - Water temperature prediction and model fit.</i></figcaption>
+</figure>
+
+## Highlights
+
+* Water temperature can be accurately and easily predicted combining machine learning techniques and available data from global, open-access products
+* Machine learning techniques such as random forests and neuronal networks can deal reasonably well with short to medium-term time series and potentially autocorrelated predictor variables to predict water temperature
+* This modelling approach allows to fill temporal and spatial gaps in water temperature data, improving our capacity to assess the impacts of changes in climate and land use change on river conservation status and the subsequent effects on aquatic biodiversity
+
 
 ## Insights
 
-* A variety of machine and deep learning approaches from Random Forest to Neural Networks or Extreme Gradient boosting can be implemented within the general modelling approach
-* Providing information of freshwater ecosystems to entire river networks set the basis for river management based on decision support systems
-
-## Additional Notes
-
-* Object of several scientific publications:
-    *    doi: [10.1016/j.jhydrol.2019.03.056](https://doi.org/10.1016/j.jhydrol.2019.03.056)
-    *    doi: [10.1016/j.scitotenv.2015.12.109](http://dx.doi.org/10.1016/j.scitotenv.2015.12.109)
-    *    doi: [10.1002/rra.3456](https://doi.org/10.1002/rra.3456)                         
-* Other implementation done by IHCantabria in Uruguay ([Reference](https://saras-institute.org/es/cuencas-virtuales/))
-* IH Cantabria collaborates with **Terrain Works (USA)** for the development of virtual watersheds
-* These tools have been funded by several research and technical assistance projects including MARCE, RIVERLANDS, HANSEL or REFCON
+* Using global, open-access products opens up the possibilities of predicting water temperature in any region and making projections with future climate data
+* Water resource and environmental managers can improve conservation and restoration strategies at the basin and regional scale
