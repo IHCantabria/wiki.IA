@@ -61,4 +61,4 @@ YEAR | TITLE  | GROUP        |  MORE INFO
 2025 | COASTAL FLOODING IN URBAN COASTAL AREAS | ADAPTA (A2) | [description sheet](sheets/GARACHICO.md)
 2025 | Santander-OEFS-AI | OCEANOS (A3) | [description sheet](sheets/Santander-OEFS-AI.md)
 2025 | INTELIGENTE | ENERGÍA (A2) | [description sheet](sheets/INTELIGENTE.md)
-2025 | RiparIAn forests | ECONT | [description sheet](sheets/RiparIAn-Forests.md)
+2025 | RiparIAn forests | ECONT | [description sheet](sheets/RiparIAn-forests.md)
