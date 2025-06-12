@@ -1,0 +1,78 @@
+name: Render Markdown to PDF on Release
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  build_and_upload_pdfs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Pandoc, TeX Live, and Zip
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-extra texlive-latex-recommended texlive-plain-generic zip
+
+      - name: Create PDF output directory
+        run: mkdir -p ./pdf_outputs
+
+      - name: Convert Markdown files to PDF
+        id: convert_markdown_files
+        run: |
+          MARKDOWN_FOLDER="wikiIA/sheets"
+          
+          if [ ! -d "$MARKDOWN_FOLDER" ] || ! find "$MARKDOWN_FOLDER" -maxdepth 1 -name "*.md" -print -quit 2>/dev/null; then
+            echo "No se encontraron archivos Markdown en $MARKDOWN_FOLDER o la carpeta no existe. Saltando la conversión."
+            exit 0 
+          fi
+
+          find "$MARKDOWN_FOLDER" -type f -name "*.md" -print0 | while IFS= read -r -d $'\0' md_file; do
+            filename=$(basename -- "$md_file")
+            filename_no_ext="${filename%.md}"
+            pdf_file="./pdf_outputs/${filename_no_ext}.pdf"
+            
+            echo "Convirtiendo '$md_file' a '$pdf_file'..."
+            
+            pandoc "$md_file" \
+              --pdf-engine=xelatex \
+              -o "$pdf_file" \
+              -V geometry:margin=1in \
+              -V mainfont="Liberation Serif" \
+              -V sansfont="Liberation Sans" \
+              -V monofont="Liberation Mono" \
+              -V lang=en \
+              --toc
+              
+            if [ $? -eq 0 ]; then
+              echo "Éxito: '$pdf_file' generado."
+            else
+              echo "Error: Falló la generación de PDF para '$md_file'." >&2
+            fi
+          done
+
+      - name: Create a ZIP archive of all PDFs
+        if: steps.convert_markdown_files.outcome == 'success'
+        run: |
+          if ! ls ./pdf_outputs/*.pdf 1>/dev/null 2>&1; then
+            echo "No se encontraron archivos PDF en ./pdf_outputs/. Saltando la creación del ZIP."
+            exit 0
+          fi
+          
+          ZIP_FILENAME="fichas_proyectos_pdf.zip"
+          zip -q -j "./${ZIP_FILENAME}" ./pdf_outputs/*.pdf 
+          echo "PDF_ZIP_NAME=${ZIP_FILENAME}" >> $GITHUB_ENV
+          echo "ZIP de PDFs creado: ${ZIP_FILENAME}"
+
+      - name: Upload ZIP to Release
+        if: env.PDF_ZIP_NAME
+        uses: softprops/action-gh-release@v1
+        with:
+          files: ./${{ env.PDF_ZIP_NAME }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
