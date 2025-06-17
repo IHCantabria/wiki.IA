@@ -1,44 +1,56 @@
+# SOSeas - Assessment Tool for Predicting the Dynamic Risk of Drowning on Beaches
 
-## SOSeas - Assessment tool for predicting the dynamic risk of drowning on beaches
-
-🏖️ 🛟 🚩 `#electronic-flag` `#drowning` `#metocean` `#beach-safety` `#neuronal-network` `#deep-learning` 
+🏖️🛟🚩 `#electronic-flag` `#drowning` `#metocean` `#beach-safety` `#neuronal-network` `#deep-learning`
 
 ---
-### Context
-Despite significant advancements in technology, techniques and knowledge, people still drown on the coast in unacceptable numbers; the maximum drowning index in Latin America is located in Brazil where a person is dead by drowning every 91 minutes. Against this backdrop, the following question arises: could we develop a worldwide operational system to inform end users about the risks at any patrolled or unpatrolled beach?
 
-<figure align="center">
-    <img src="../_static/images/SOSeas_app_forecast.jpg" alt="Screenshots of SOSeas mobile application" />
-    <figcaption><i>Figure 1 - Screenshots of SOSeas "Forecast" panel</i></figcaption>
-</figure>
+## Context
 
-### Description
-A new cutting-edge app is developed to minimize, predict and enhance useful information for beach users and related services and managers. Special focus on the generation of a elctronic flag to inform about drowning risk in patrol and unpatrol beaches, plus a warning section to notice user about other risks or important events that could take place in the beaches of Brazil. 
+Despite significant advances in science, technology, and coastal management, drowning remains a leading cause of accidental death on beaches. In Latin America, Brazil presents one of the highest drowning indices — with one drowning every 91 minutes. Against this backdrop, the following question arises:
 
-The main highlights of this app are metinoned bellow: 
-1. A cross cutting analysis between metocean conditions, beach characterizations, and flag events catalogue. 
-2. The use of Artificial Inteligence, specifically Deep Neural Network models, to identify and predict dynamic risk of drowning synchronized to dynamic metocean conditions.
-3. Obtain electronic bathing flags as an indicator of this risk.
-4. User-friendly display of the information: forecastings of metocean conditions (winds, waves, currents and tides) and electronic flag, beach charateristics (service locations mainly) and warnings related to metocean conditions or other factors (algae blooms, jellyfish...)
+> Can we develop a global operational system to inform beachgoers and managers of drowning risks on both patrolled and unpatrolled beaches?
 
-<figure align="center">
-    <img src="../_static/images/SOSeas_app_events_map_warnings.png" alt="Screenshots of SOSeas mobile application" />
-    <figcaption><i>Figure 2 - Screenshots of SOSeas "Events", "Map" and "Warnings" panels</i></figcaption>
-</figure>
+![Screenshots of SOSeas "Forecast" panel](../_static/images/SOSeas_app_forecast.png){fig-align="center"}
 
-### Insights
-* 🏖️ 🛟 💼 Beach users, lifeguards and  managers can have detailed and near real-time information of all risks and their variability along the day.
-* 🌊 🗺️ ⚠️ Providing information in a predictive manner would therefore help to minimize this risk factor by enabling a better management of these spaces.
+---
+
+## Description
+
+**SOSeas** is a cutting-edge application developed to predict and reduce drowning risk while improving the dissemination of relevant information for beach users, lifeguards, and managers.
+
+Its main innovation is the **electronic bathing flag**, which reflects the dynamically predicted drowning risk at any given beach.
+
+### Key Features
+
+1. **Cross-analysis** of metocean conditions, beach morphology, and historical flag event data.
+2. Use of **deep learning** techniques (Deep Neural Networks) to predict drowning risk based on real-time environmental data.
+3. **Electronic flag system** to communicate risk levels to the public.
+4. **User-centric interface** including:
+   - Forecast of winds, waves, currents, and tides.
+   - Maps of beach characteristics and services.
+   - Warnings for hazards such as jellyfish or harmful algal blooms.
+
+![Screenshots of SOSeas "Events", "Map" and "Warnings" panels](../_static/images/SOSeas_app_events_map_warnings.png){fig-align="center"}
+
+---
+
+## Insights
+
+- 🛟 **Enhanced Safety:** Lifeguards, managers, and beachgoers receive predictive, dynamic risk information to improve situational awareness.
+- 🌊 **Proactive Management:** Forecasting allows better planning, prevention strategies, and more efficient beach safety resource allocation.
+
+---
+
+## Other Remarks
+
+- 📄 **Scientific Publication:** [doi:10.5194/egusphere-egu2020-18033](https://doi.org/10.5194/egusphere-egu2020-18033)
+- 🌏 **International Implementation:** A version of the tool was also deployed in Australia *(reference pending)*.
+- 💰 **Funding:** Project funded by **CMEMS DEMONSTRATION COASTAL-GLOBAL OCEAN**  
+  *(Contract: 110-DEM5-L10)*
+
+![Descripción de la imagen](../_static/images/Global-Ocean-SOSeas-110-DEM5-L10.png){width="150" style="float: right;"}
 
 
-### Other Remarks
-* Object of a scientific publication, doi: [10.5194/egusphere-egu2020-18033](https://doi.org/10.5194/egusphere-egu2020-18033)
-* Other implementation done by IHCantabria in Australia ([Reference]())
-* This project was founded by CMEMS DEMONSTRATION COASTAL-GLOBAL OCEAN (contract: 110-DEM5-L10) 
-<p align="right">
-<img src="../_static/images/Global-Ocean-SOSeas-110-DEM5-L10.webp" width=150/>
-</p>
+---
 
-<p align="center">
-<img align="center" src="../_static/images/UC+FIHAC+IHCantabrianegro.png" width="500"/>
-</p>
+![](../_static/images/UC+FIHAC+IHCantabrianegro.png){width="500px" fig-align="center"}

@@ -7,29 +7,15 @@ Stream temperature is a critical water quality determinant, influencing the spat
 
 ## Description
 
-
 Using the open-source AutoML library (Amazon Web Services), we developed a simple code to build high-quality machine learning-based models to predict water temperature in time and space. The models were trained with short to medium-term time series of *in situ* water temperature measurements (Figure 1) and environmental predictors such as topography, river reach structure (elevation, draining area, distance to outlet), climatic variables from EMO-1 (European Commission, JRC) and land use data from CORINE Land Cover 2018 (COPERNICUS Land Monitoring Service).  
 
-
-<figure align="center">
-   <img src="../_static/images/Ficha_Proyecto_IA_Temperatura_Fig1.png" alt="temperature sensor" />
-   <figcaption><i>Figure 1 - Water temperature sensor and location in-stream.</i></figcaption>
-</figure>
+![Water temperature sensor and location in-stream.](../_static/images/Ficha_Proyecto_IA_Temperatura_Fig1.png){width="60%" fig-align="center"}
 
 ##
 
-Model fit was as good as R2=0.97 and RMSE=0.65 for the location were water temperature was best predicted (Figure 2).                                                                                                                                                          
-                                             
+Model fit was as good as R2=0.97 and RMSE=0.65 for the location were water temperature was best predicted (Figure 2).                                                                                                                                                         
 
-
-
-
-
-
-<figure align="center">
-   <img src="../_static/images/Ficha_Proyecto_IA_Temperatura_Fig2.png" alt="model fit" />
-   <figcaption><i>Figure 2 - Water temperature prediction and model fit.</i></figcaption>
-</figure>
+![Water temperature prediction and model fit.](../_static/images/Ficha_Proyecto_IA_Temperatura_Fig2.png){width="60%" fig-align="center"}
 
 ## Highlights
 
@@ -44,10 +30,4 @@ Model fit was as good as R2=0.97 and RMSE=0.65 for the location were water tempe
 
 ##
 
-
-<p align="center">
-<img align="center" src="../_static/images/UC+FIHAC+IHCantabrianegro.png" width="500"/>
-</p>
-
-
-
+![](../_static/images/UC+FIHAC+IHCantabrianegro.png){width="500px" fig-align="center"}

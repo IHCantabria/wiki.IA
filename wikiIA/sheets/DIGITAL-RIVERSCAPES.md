@@ -7,15 +7,10 @@ Monitoring data from various ecosystem components—including abiotic factors, b
 
 ## Description
 
-
 Since 2012, IHCantabria has been developing virtual river networks and watersheds, aka **DIGITAL RIVERSCAPES**, at large spatial scales (e.g., Spain and EU, Uruguay, Chile). A digital riverscape is essentially a digital representation of a watershed’s characteristics, designed to simulate spatially explicit watershed processes. It is typically structured as a fluvial network enriched with diverse layers of information, including topography, climate, geology, land use, and land cover, among others. It also incorporates data on key anthropogenic pressures affecting freshwater ecosystems, such as organic and industrial pollution, dams, reservoirs, and weirs.
 These digital riverscapes are integrated with ecological datasets from various databases, which are used to train and validate models applied across the entire river network. The data span multiple ecosystem dimensions, including abiotic factors (e.g., nutrient levels, hydrological classifications), biodiversity (e.g., species presence, abundance, or biomass), and ecosystem functioning (e.g., river metabolism, organic matter decomposition). 
 
-
-<figure align="center">
-   <img src="../_static/images/Imagen REEFCON.jpg" alt="Modelling approach REFCON" />
-   <figcaption><i>Figure 1 - Scheme of the modelling approach to model the ecological reference condition sensu WFD in Spain</i></figcaption>
-</figure>
+![Scheme of the modelling approach to model the ecological reference condition sensu WFD in Spain](../_static/images/Imagen_REEFCON.png){width="45%" fig-align="center"}
 
 ##
 
@@ -43,8 +38,4 @@ The integration of digital riverscapes with ecological datasets forms the founda
 * IH Cantabria collaborates with **Terrain Works (USA)** for the development of digital riverscapes
 * These tools have been funded by several research and technical assistance projects including MARCE, RIVERLANDS, HANSEL or REFCON
 
-
-<p align="center">
-<img align="center" src="../_static/images/UC+FIHAC+IHCantabrianegro.png" width="500"/>
-</p>
-
+![UC FIHAC IHCantabrianegro](../_static/images/UC+FIHAC+IHCantabrianegro.png){width="500px" fig-align="center"}

@@ -1,40 +1,55 @@
 # SIMPCCe - Climate Change Forecasting Simulator for Reservoirs
-🌊 📊 #climate-change #reservoirs #hydrology #forecasting #machine-learning #data-science
+
+🌊📊 `#climate-change` `#reservoirs` `#hydrology` `#forecasting` `#machine-learning` `#data-science`
+
+---
 
 ## Context
 
-As climate change alters hydrological patterns, it is essential to have tools that allow evaluating and forecasting the impact on water availability in reservoirs. In this context, **SIMPCCe** is developed as a tool to perform simulations of climate change forecasts applied to reservoirs.
+As climate change alters hydrological patterns, it is essential to develop tools that can evaluate and forecast its impact on water availability in reservoirs. In this context, **SIMPCCe** has been created to simulate climate change forecasts applied specifically to reservoir systems.
+
+---
 
 ## SIMPCCe Application Screenshots
 
-<figure align="center">
-   <img src="../_static/images/SIMPCCe.png" alt="Screenshots of the SIMPCCe application" />
-   <figcaption><i>Figure 1 - Screenshots of the SIMPCCe application</i></figcaption>
-</figure>
+![Screenshots of the SIMPCCe application](../_static/images/SIMPCCe.png){fig-align="center"}
+
+---
 
 ## Description
 
-The **SIMPCCe** application has been developed as an innovative tool for evaluating the effects of climate change on reservoirs. Its objective is to facilitate the implementation of advanced methodologies without requiring code execution or the installation of multiple dependencies.
+**SIMPCCe** is an innovative simulation tool designed to assess the effects of climate change on water reservoirs. Its goal is to make advanced modeling methodologies accessible without requiring users to write code or install complex dependencies.
 
-### Main Features:
+### Main Features
 
-1. **Hydrometeorological Data Analysis**: Integration of projected climate data and historical measurements to estimate the impact on reservoirs.
-2. **Use of Artificial Intelligence**: Application of **machine learning models and neural networks** to identify patterns and perform hydrological forecasts.
-3. **Generation of Climate Change Scenarios**: Modeling of different scenarios to assess the resilience of reservoirs under future conditions.
-4. **Intuitive Interface**: Allows configuring and executing analyses without requiring advanced programming knowledge.
+1. **Hydrometeorological Data Analysis**  
+   Integrates historical records with projected climate data to estimate impacts on reservoir behavior.
+
+2. **Artificial Intelligence Integration**  
+   Applies **machine learning** and **neural networks** for pattern recognition and hydrological forecasting.
+
+3. **Climate Scenario Generation**  
+   Enables the creation and comparison of various future climate change scenarios to evaluate reservoir resilience.
+
+4. **User-Friendly Interface**  
+   Allows users to configure simulations and analyze results intuitively, with no programming knowledge required.
+
+---
 
 ## Perspectives
 
-🏞️ 📊 Water managers and hydrological planning authorities will be able to access detailed and real-time information on the evolution of reservoir storage.
+🏞️ Reservoir and water resource managers can use SIMPCCe to access high-resolution, near real-time forecasts of reservoir behavior.
 
-🌍 🔍 📉 Integrating AI into climate forecasting analysis will enhance water management and help mitigate negative impacts.
+🌍 Integrating **AI** into climate and hydrological analysis empowers more **resilient planning** and helps mitigate the adverse effects of climate variability.
+
+---
 
 ## Additional Notes
 
-🔗 **GitHub Repository:** [SIMPCCe on GitHub](https://github.com/IHCantabria/SIMPCCe)
-
-📄 **Scientific Publication:** [SIMPCCe: Climate Change Forecasting Simulator for Reservoirs](https://zenodo.org/record/11103323)
-
-🌏 **Implementation:** Application used in water management projects in collaboration with IHCantabria.
+- 🔗 **GitHub Repository:** [github.com/IHCantabria/SIMPCCe](https://github.com/IHCantabria/SIMPCCe)  
+- 📄 **Scientific Publication:** [SIMPCCe: Climate Change Forecasting Simulator for Reservoirs](https://zenodo.org/record/11103323)  
+- 🌏 **Real-world Implementation:** Used in active water resource management projects in collaboration with **IHCantabria**.
 
 ---
+
+![](../_static/images/UC+FIHAC+IHCantabrianegro.png){width="500px" fig-align="center"}

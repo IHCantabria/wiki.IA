@@ -1,0 +1,100 @@
+name: Render Markdown to PDF on Release
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  build_and_upload_pdfs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Pandoc, TeX Live, Noto Fonts, and Zip
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            pandoc \
+            texlive-luatex \
+            texlive-fonts-extra \
+            texlive-latex-recommended \
+            texlive-plain-generic \
+            fonts-noto-serif \
+            fonts-noto-sans-mono \
+            fonts-noto-color-emoji \
+            zip
+
+      - name: Create PDF output directory
+        run: mkdir -p ./pdf_test_outputs 
+
+      - name: Convert Markdown files to PDF
+        id: convert_markdown_files
+        run: |
+          INPUT_FOLDER="wikiIA/sheets"
+          OUTPUT_FOLDER="./pdf_test_outputs" 
+          RESOURCE_PATHS="wikiIA/_static/images:wikiIA/sheets" 
+          
+          if [ ! -d "$INPUT_FOLDER" ] || ! find "$INPUT_FOLDER" -maxdepth 1 -name "*.md" -print -quit 2>/dev/null; then
+            echo "No se encontraron archivos Markdown en $INPUT_FOLDER o la carpeta no existe. Saltando la conversión."
+            exit 0 
+          fi
+
+          for md_file in "$INPUT_FOLDER"/*.md; do
+              if ! grep -q '[^[:space:]]' "$md_file"; then
+                  echo "⚠️  Ignorando archivo sin contenido significativo: $(basename "$md_file")"
+                  continue
+              fi
+
+              filename=$(basename -- "$md_file")
+              filename_no_ext="${filename%.md}"
+              pdf_file="${OUTPUT_FOLDER}/${filename_no_ext}.pdf"
+              
+              echo "📄 Generando PDF para: $filename"
+              
+              pandoc "$md_file" \
+                --from markdown+raw_html \
+                --pdf-engine=lualatex \
+                --resource-path="$RESOURCE_PATHS" \
+                -o "$pdf_file" \
+                -V geometry:margin=1in \
+                -V mainfont="Noto Serif" \
+                -V monofont="Noto Sans Mono" \
+                -V emoji-font="Noto Color Emoji" \
+                -V mainfontoptions="Renderer=Harfbuzz" \
+                -V monofontoptions="Renderer=Harfbuzz" \
+                -V emojifontoptions="Scale=1.2,Renderer=Harfbuzz" \
+                -V colorlinks=true \
+                -V linkcolor=blue \
+                --metadata=figure-float:false 
+                
+              if [ $? -eq 0 ]; then
+                echo "Éxito: '$pdf_file' generado."
+              else
+                echo "Error: Falló la generación de PDF para '$md_file'." >&2
+              fi
+          done
+
+      - name: Create a ZIP archive of all PDFs
+        if: steps.convert_markdown_files.outcome == 'success' 
+        run: |
+          if ! ls ./pdf_test_outputs/*.pdf 1>/dev/null 2>&1; then
+            echo "No se encontraron archivos PDF en ./pdf_test_outputs/. Saltando la creación del ZIP."
+            exit 0
+          fi
+          
+          ZIP_FILENAME="fichas_proyectos_pdf.zip"
+          zip -q -j "./${ZIP_FILENAME}" ./pdf_test_outputs/*.pdf 
+          echo "PDF_ZIP_NAME=${ZIP_FILENAME}" >> $GITHUB_ENV
+          echo "ZIP de PDFs creado: ${ZIP_FILENAME}"
+
+      - name: Upload ZIP to Release
+        if: env.PDF_ZIP_NAME
+        uses: softprops/action-gh-release@v1
+        with:
+          files: ./${{ env.PDF_ZIP_NAME }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

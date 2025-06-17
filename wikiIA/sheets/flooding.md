@@ -2,22 +2,11 @@
 ## Coastal flooding modelling strategies
 The choice of the modelling strategy depends on the spatio-temporal scale to be solved. For spatial scales of few hundreds of meters, the direct option is to solve the surfzone hydrodynamics considering waves and water levels and subsequent overland flow using direct numerical simulation. However, for larger spatial scales, the wave and water level transformation problem is uncoupled from the overland flooding simulation to speed up the computations.
 
-<div align="center">
-  <figure>
-    <img src="../_static/images/flood_ms.png" width="50%">
-    <figcaption style="text-align: center;">Figure 1: Coastal flooding modelling strategies.</figcaption>
-  </figure>
-</div>
-<br/>
+![Coastal flooding modelling strategies.](../_static/images/flood_ms.png){width="50%" fig-align="center"}
 
 For regional-scale applications, it is usual to solve the surfzone hydrodynamics using specific numerical tools to derive the coastal forcings for a reduced-complexity overland flood model as shown in Figure.
-<div align="center">
-  <figure>
-    <img src="../_static/images/uncoupled_methodology.png" width="50%">
-    <figcaption style="text-align: center;">Figure 2: Flow diagram for a regional-scale flood modeling applications.</figcaption>
-  </figure>
-</div>
-<br/>
+
+![Flow diagram for a regional-scale flood modeling applications.](../_static/images/uncoupled_methodology.png){width="50%" fig-align="center"}
 
 ## Limitations of numerical flooding prediction
 However, in spite of the computational advantages of reduced-complexity process modeling, numerical modeling of coastal flooding has some limitations:
@@ -31,13 +20,7 @@ In order to overcome these limitations, machine learning is a great tool. Howeve
 
 $Y = F(X) \text{, where } Y \text{ is the spatial map and } X \text{ represents Hs, Tp, Dir, SWL.}$
 
-<div align="center">
-  <figure>
-    <img src="../_static/images/multipoints.png" width="50%">
-    <figcaption style="text-align: center;">Figure 3: Flood prediction points.</figcaption>
-  </figure>
-</div>
-<br/>
+![Flood prediction points.](../_static/images/multipoints.png){width="50%" fig-align="center"}
 
 ## Methodology
 The methodology consists of creating a surrogate statistical model based on a set of numerical flood simulations. It is divided in several steps:
@@ -48,49 +31,27 @@ The methodology consists of creating a surrogate statistical model based on a se
 5. Statistical model evaluation
 ### 1. Numerical model setup
 A 2DH XBeach simulation in a 10x10m grid is setup considering both topobathymetry of the San Lorenzo beach in Gijón consisting of 45k numerical cells.
-<div align="center">
-  <figure>
-    <img src="../_static/images/mallatbati.png" width="50%">
-    <figcaption style="text-align: center;">Figure 4: Numerical model grid.</figcaption>
-  </figure>
-</div>
-<br/>
+
+![Numerical model grid.](../_static/images/mallatbati.png){width="50%" fig-align="center"}
 
 ### 2. Event selection
 20 historical extreme events are selected considering a peaks over treshold (POT) method. 100 events are evaluated by combining the selected historical cases with 5 SLR scenarios.
-<div align="center">
-  <figure>
-    <img src="../_static/images/eventselection.png" width="50%">
-    <figcaption style="text-align: center;">Figure 5: Event selection.</figcaption>
-  </figure>
-</div>
-<br/>
+
+![Event selection.](../_static/images/eventselection.png){width="50%" fig-align="center"}
 
 ### 3. Numerical simulation
-The numerical simulation of the 100 cases yields a training dataset consisting of 100 realizations of the 45k grid (representing the Y predictand variable) against the 100 wave and water level parameters representing the storms (X predictor variable). 
-<div align="center">
-  <figure>
-    <img src="../_static/images/floodsimulations.png" width="50%">
-    <figcaption style="text-align: center;">Figure 6: Some simulated flood events.</figcaption>
-  </figure>
-</div>
-<br/>
+The numerical simulation of the 100 cases yields a training dataset consisting of 100 realizations of the 45k grid (representing the Y predictand variable) against the 100 wave and water level parameters representing the storms (X predictor variable).
 
+![Some simulated flood events.](../_static/images/floodsimulations.png){width="50%" fig-align="center"}
 
 ### 4. Training the statistical model
-The statistical model consists of projecting the training predictand dataset (N=45000xM=100) into a reduced subset using principal component analysis (PCA). 
+The statistical model consists of projecting the training predictand dataset (N=45000xM=100) into a reduced subset using principal component analysis (PCA).
 
 $Y_{N,M}=U_{N,N} \Delta_{N,M} V_{M,M}$
 
-<div align="center">
-  <figure>
-    <img src="../_static/images/EOFS.png" width="50%">
-    <figcaption style="text-align: center;">Figure 7: Some EOFs.</figcaption>
-  </figure>
-</div>
-<br/>
+![Some EOFs.](../_static/images/EOFS.png){width="50%" fig-align="center"}
 
-Then, a given flood map (Y) can be solved as a linear summation of fixed EOFs (U) multiplied by storm-dependent latent variables (PCs) 
+Then, a given flood map (Y) can be solved as a linear summation of fixed EOFs (U) multiplied by storm-dependent latent variables (PCs)
 
 $Y_{j}=\sum_{i=1}^N \alpha_{ji}U_j$
 
@@ -100,23 +61,12 @@ $\alpha_{ji}=GP(\underbrace{X}_{Hs, Tp, Dir, SWL})$
 
 A balanced solution in terms of accuracy is obtained when choosing the EOFs that represent 90% of the total variance:
 
-<div align="center">
-  <figure>
-    <img src="../_static/images/modos90.png" width="50%">
-    <figcaption style="text-align: center;">Figure 8:Metamodel results when considering the EOFs that capture 90% of the total variance.</figcaption>
-  </figure>
-</div>
-<br/>
+![Metamodel results when considering the EOFs that capture 90% of the total variance.](../_static/images/modos90.png){width="50%" fig-align="center"}
 
 ### 5. Model evaluation
-The surrogate GP model is evaluated against the true numerical solution and results highlight a slight underprediction of the total flooded area. 
-<div align="center">
-  <figure>
-    <img src="../_static/images/testmodelo.png" width="50%">
-    <figcaption style="text-align: center;">Figure 9: Model evaluation. </figcaption>
-  </figure>
-</div>
-<br/>
+The surrogate GP model is evaluated against the true numerical solution and results highlight a slight underprediction of the total flooded area.
+
+![Model evaluation.](../_static/images/testmodelo.png){width="50%" fig-align="center"}
 
 ### 6. Way forward
 In order to improve the results we are exploring the following:
