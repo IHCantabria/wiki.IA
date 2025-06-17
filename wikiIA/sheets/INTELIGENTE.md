@@ -1,4 +1,3 @@
-
 ## INTELIGENTE - Machine Learning tool for predicting FPVP movements and fatigue-based damage
 
 `#predictive-maintenance` `#machine-learning` `#metocean` `#energy` `#photovoltaics` 
@@ -7,10 +6,7 @@
 ### Context
 The rapid expansion of solar photovoltaic technology has highlighted the potential of floating photovoltaics (FPVs) to address land use limitations while providing additional environmental benefits. However, maintaining critical mooring systems that ensure FPV stability remains challenging, especially under environmental loads such as wind and waves.
 
-<figure align="center">
-    <img src="../_static/images/inteligente_planta.PNG" alt="View of the studied plant" />
-    <figcaption><i>Figure 1 - View of the studied plant</i></figcaption>
-</figure>
+![View of the studied plant](../_static/images/inteligente_planta.PNG){width="60%" fig-align="center"}
 
 ### Description
 This study explores the application of machine learning (ML) methods for predicting the dynamic behaviour of FPV systems installed on irrigation ponds, with a focus on mooring tension, platform movements and fatigue based damage. Using a dataset derived from numerical modeling trained with historical wind and water depth data, two ML algorithms, the random forest and XGBoost, were employed to develop predictive models.
@@ -31,6 +27,4 @@ The main highlights of this project are metinoned below:
 * This project was founded by ISIGENERE and the NextGeneration funds from the EU.
 
 
-<p align="center">
-<img align="center" src="../_static/images/UC+FIHAC+IHCantabrianegro.png" width="500"/>
-</p>
+![](../_static/images/UC+FIHAC+IHCantabrianegro.png){width="500px" fig-align="center"}

@@ -2,10 +2,7 @@
 
 **pyTESEO** is a python package developed by [IHCantabria](https://ihcantabria.com/en/) to simplify and facilitate the setup and processing of [TESEO](https://ihcantabria.com/en/specialized-software/teseo/) simulations *(TESEO is a lagrangian numerical model also developed by IHCantabria.)* The soruce code of this package is located at [https://github.com/IHCantabria/pyteseo](https://github.com/IHCantabria/pyteseo).
 
-```{image} ../_static/images/pyTESEO_logo.png
-:width: 500px
-:align: center
-```
+![](../_static/images/pyTESEO_logo.png){width="500px" fig-align="center"}
 
 ---
 
@@ -14,22 +11,16 @@ pyTESEO is a python package developed to help users to setup TESEO's simulations
 
 ---
 
-```{image} ../_static/images/TESEO_logo.png
-:width: 300px
-:align: left
-:target: https://ihcantabria.com/en/specialized-software/teseo
-```
+[![](../_static/images/TESEO_logo.png){width="300px" fig-align="left"}](https://ihcantabria.com/en/specialized-software/teseo)
+
 TESEO is a lagrangian numerical model developed by IHCantabria. The numerical model calculates trajectories of particles based on metocean conditions like ocean currents, winds and waves. It also includes weathering submodels to evaluate the degradation and physical characteristics of specific substances or elements as floaters, oil, hns substances or marine litter.
 
+> **Important:** Marine litter submodel is currently under development!
 
-```{important}
-Marine litter submodel is currently under development!
+---
 
-```
+Example of representation produced with pyTESEO  
+![](../_static/animations/particles_spill_01.gif)
 
-Example of representation produced with pyTESEO
-![pyTESEO standard animation](../_static/animations/particles_spill_01.gif)
-
-
-The soruce code of the model is located at [https://github.com/IHCantabria/TESEO](https://github.com/IHCantabria/TESEO).
+The soruce code of the model is located at [https://github.com/IHCantabria/TESEO](https://github.com/IHCantabria/TESEO).  
 More info about pyTESEO is provided at its [documentation](https://ihcantabria.github.io/pyteseo/)
