@@ -92,6 +92,9 @@ jobs:
                 -e 's/\{py:mod\}`([^`]+)`/`\1`/g' \
                 "$md_file" > "$preprocessed_md"
               
+              # Remove first H1 title and following empty line
+              sed -i '0,/^# [^#].*$/{ /^# [^#].*$/{ N; s/^# [^#].*\n//; } }' "$preprocessed_md"
+              
               # Step 2: Convert Markdown to HTML with Pandoc
               if pandoc "$preprocessed_md" \
                 --from markdown+raw_html+tex_math_dollars \
