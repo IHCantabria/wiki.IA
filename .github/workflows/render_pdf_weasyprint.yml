@@ -1,0 +1,169 @@
+name: Generate PDFs with WeasyPrint (Manual)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  generate_pdfs:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install system dependencies for WeasyPrint
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            pandoc \
+            python3-pip \
+            python3-cffi \
+            python3-brotli \
+            libpango-1.0-0 \
+            libpangocairo-1.0-0 \
+            libgdk-pixbuf2.0-0 \
+            libffi-dev \
+            shared-mime-info \
+            fonts-liberation \
+            fonts-dejavu-core \
+            fonts-noto-core \
+            fonts-noto-cjk \
+            fonts-noto-color-emoji \
+            libjpeg-dev \
+            libpng-dev \
+            libwebp-dev \
+            zip
+
+      - name: Install Python packages
+        run: |
+          pip install weasyprint
+
+      - name: Create output directories
+        run: |
+          mkdir -p ./pdf_outputs
+          mkdir -p ./html_temp
+
+      - name: Convert Markdown to PDF
+        run: |
+          INPUT_FOLDER="wikiIA/sheets"
+          OUTPUT_FOLDER="./pdf_outputs"
+          HTML_TEMP="./html_temp"
+          RESOURCE_PATHS="wikiIA/_static/images:wikiIA/_static/animations:wikiIA/sheets"
+          CSS_FILE="wikiIA/_static/weasyprint_styles.css"
+          BASE_URL="file://$(pwd)/wikiIA/"
+          
+          SUCCESS_COUNT=0
+          ERROR_COUNT=0
+          
+          echo "🚀 Starting PDF generation with WeasyPrint..."
+          echo "================================================"
+          
+          for md_file in "$INPUT_FOLDER"/*.md; do
+              if [ ! -f "$md_file" ]; then
+                  echo "⚠️  No markdown files found in $INPUT_FOLDER"
+                  continue
+              fi
+              
+              if ! grep -q '[^[:space:]]' "$md_file"; then
+                  echo "⚠️  Skipping empty file: $(basename "$md_file")"
+                  continue
+              fi
+              
+              filename=$(basename -- "$md_file")
+              filename_no_ext="${filename%.md}"
+              html_file="${HTML_TEMP}/${filename_no_ext}.html"
+              pdf_file="${OUTPUT_FOLDER}/${filename_no_ext}.pdf"
+              
+              echo ""
+              echo "📄 Processing: $filename"
+              echo "   → HTML: $(basename "$html_file")"
+              echo "   → PDF: $(basename "$pdf_file")"
+              
+              # Step 1: Preprocess Markdown to handle MyST attributes
+              preprocessed_md="${HTML_TEMP}/${filename_no_ext}_preprocessed.md"
+              
+              # Remove MyST image attributes {width="X" fig-align="center"}
+              # Convert {py:mod}`module` to `module`
+              sed -E \
+                -e 's/!\[([^\]]*)\]\(([^)]+)\)\{[^}]+\}/![\1](\2)/g' \
+                -e 's/\{py:mod\}`([^`]+)`/`\1`/g' \
+                "$md_file" > "$preprocessed_md"
+              
+              # Step 2: Convert Markdown to HTML with Pandoc
+              if pandoc "$preprocessed_md" \
+                --from markdown+raw_html+tex_math_dollars \
+                --to html5 \
+                --standalone \
+                --self-contained \
+                --webtex \
+                --resource-path="$RESOURCE_PATHS" \
+                --css="$CSS_FILE" \
+                --metadata title="$filename_no_ext" \
+                -o "$html_file" 2>&1 | tee /tmp/pandoc_log.txt; then
+                
+                echo "   ✓ HTML generated successfully"
+                
+                # Step 3: Convert HTML to PDF with WeasyPrint
+                if weasyprint \
+                  "$html_file" \
+                  "$pdf_file" \
+                  --base-url="$BASE_URL" \
+                  --pdf-variant=pdf/ua-1 2>&1 | tee /tmp/weasyprint_log.txt; then
+                  
+                  echo "   ✅ PDF generated successfully: $pdf_file"
+                  SUCCESS_COUNT=$((SUCCESS_COUNT + 1))
+                else
+                  echo "   ❌ WeasyPrint error for: $filename"
+                  echo "   Check logs above for details"
+                  ERROR_COUNT=$((ERROR_COUNT + 1))
+                fi
+                
+              else
+                echo "   ❌ Pandoc error for: $filename"
+                echo "   Check logs above for details"
+                ERROR_COUNT=$((ERROR_COUNT + 1))
+              fi
+              
+          done
+          
+          echo ""
+          echo "================================================"
+          echo "📊 Summary:"
+          echo "   ✅ Successful: $SUCCESS_COUNT PDFs"
+          echo "   ❌ Failed: $ERROR_COUNT PDFs"
+          echo "================================================"
+          
+          if [ $SUCCESS_COUNT -eq 0 ]; then
+            echo "⚠️  Warning: No PDFs were generated successfully"
+            exit 1
+          fi
+
+      - name: Create ZIP archive
+        if: success()
+        run: |
+          if ! ls ./pdf_outputs/*.pdf 1>/dev/null 2>&1; then
+            echo "No PDF files found to archive"
+            exit 1
+          fi
+          
+          DATE=$(date +%Y-%m-%d)
+          ZIP_FILENAME="wiki-ia-pdfs-weasyprint-${DATE}.zip"
+          
+          cd ./pdf_outputs
+          zip -r "../${ZIP_FILENAME}" *.pdf
+          cd ..
+          
+          echo "ZIP_FILENAME=${ZIP_FILENAME}" >> $GITHUB_ENV
+          echo "✅ Created archive: ${ZIP_FILENAME}"
+
+      - name: Upload PDFs as artifact
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.ZIP_FILENAME }}
+          path: ./${{ env.ZIP_FILENAME }}
+          retention-days: 90
+          compression-level: 0
